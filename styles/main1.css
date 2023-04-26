@@ -4,20 +4,21 @@ main .top {
   background: url(../images/main3.png);
   background-position: center;
   background-size: cover;
-  position: relative;
 }
 main .top .question {
-  position: absolute;
-  top: 150px;
-  left: 150px;
+  margin: 0 auto;
+  width: 600px;
+  transform: translate(-500px, 30vh);
 }
 main .top .question img {
   width: 100%;
 }
 main .top .answer {
-  position: absolute;
-  bottom: 300px;
-  right: 150px;
+  margin: 0 auto;
+  width: 800px;
+  transform: translate(400px, 30vh);
+  -webkit-animation: first 2s;
+          animation: first 2s;
 }
 main .top .answer img {
   width: 100%;
@@ -53,5 +54,25 @@ main .top .login a p {
   }
   100% {
     transform: translateY(20px);
+  }
+}
+@-webkit-keyframes first {
+  0% {
+    transform: translate(400px, 40vh);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(400px, 30vh);
+    opacity: 1;
+  }
+}
+@keyframes first {
+  0% {
+    transform: translate(400px, 40vh);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(400px, 30vh);
+    opacity: 1;
   }
 }/*# sourceMappingURL=main1.css.map */

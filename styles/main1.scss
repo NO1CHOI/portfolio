@@ -12,13 +12,17 @@ main {
         background: url(../images/main3.png);
         background-position: center;
         background-size:cover;
-        position: relative;
         .question {
-            position:absolute;top:150px;left:150px;
+            margin:0 auto;
+            width:600px; 
+            transform:translate(-500px,30vh);
             img {width:100%;}
         }
         .answer {
-            position:absolute;bottom:300px;right:150px;
+            margin:0 auto;
+            width:800px; 
+            transform:translate(400px,30vh);
+            animation:first 2s;
             img {width:100%;}
         }
         .login {
@@ -38,4 +42,9 @@ main {
 @keyframes updown{
     0%{transform:translateY(0)}
     100%{transform:translateY(20px);}
+}
+
+@keyframes first{
+    0%{transform:translate(400px,40vh);opacity: 0;}
+    100%{transform:translate(400px,30vh);opacity: 1;}
 }

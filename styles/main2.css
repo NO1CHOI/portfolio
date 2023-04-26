@@ -1,3 +1,73 @@
-
-
-/*# sourceMappingURL=main2.css.map */
+main {
+  height: 100vh;
+  background: #0078d7;
+  display: flex;
+  justify-content: space-between;
+}
+main nav {
+  width: 200px;
+}
+main nav a {
+  margin: 60px auto;
+  display: block;
+  width: 60px;
+  height: 60px;
+  position: relative;
+}
+main nav a .first {
+  position: absolute;
+  z-index: 999;
+}
+main nav a .second {
+  position: absolute;
+  z-index: 888;
+}
+main nav a p {
+  padding: 70px 0;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+}
+main nav a .first:hover {
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+main .wrap {
+  margin: 35px;
+  width: 1700px;
+  height: 900px;
+  background: #f6f1f1;
+}
+main .wrap .contents {
+  display: flex;
+}
+main .wrap .contents .left {
+  background: lemonchiffon;
+}
+main .wrap .contents .right {
+  background: lightcyan;
+}
+main .wrap .btm {
+  background: lightblue;
+  width: 100%;
+  height: 250px;
+}
+main .wrap .btm h2 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding: 20px;
+}
+main .wrap .btm .tool {
+  display: flex;
+  justify-content: space-between;
+}
+main .wrap .btm .tool li {
+  margin: 20px;
+}
+main .wrap .btm .tool li img {
+  width: 100px;
+}
+main .wrap .btm .tool li:hover {
+  scale: 1.2;
+  transition: scale 0.5s;
+}/*# sourceMappingURL=main2.css.map */
