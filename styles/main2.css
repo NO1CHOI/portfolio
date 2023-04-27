@@ -34,22 +34,89 @@ main nav a .first:hover {
 }
 main .wrap {
   margin: 35px;
-  width: 1700px;
+  width: 90%;
   height: 900px;
-  background: #f6f1f1;
+  background: #fff;
 }
 main .wrap .contents {
   display: flex;
+  position: relative;
 }
 main .wrap .contents .left {
-  background: lemonchiffon;
+  margin: 40px 100px 0 100px;
+  width: 400px;
+}
+main .wrap .contents .left img {
+  width: 100%;
+}
+main .wrap .contents .left .text_wrap {
+  display: flex;
+  flex-flow: row wrap;
+}
+main .wrap .contents .left .text_wrap p {
+  width: 200px;
+  padding: 10px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+main .wrap .contents .left .text_wrap p span {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+main .wrap .contents .left .text_wrap p:nth-child(1) span {
+  color: #0078d7;
+}
+main .wrap .contents .left .text_wrap p:nth-child(2) span {
+  color: #19A7CE;
+}
+main .wrap .contents .left .text_wrap p:nth-child(3) span {
+  color: #146C94;
+}
+main .wrap .contents .left .text_wrap p:nth-child(4) span {
+  color: #0A2D4D;
+}
+main .wrap .contents .left .text_wrap p:nth-child(5) span {
+  color: #FFD662;
 }
 main .wrap .contents .right {
-  background: lightcyan;
+  margin: 40px;
+  padding: 10px;
+}
+main .wrap .contents .right img {
+  position: absolute;
+  top: 50px;
+  right: 100px;
+}
+main .wrap .contents .right h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+main .wrap .contents .right p {
+  font-size: 1.8rem;
+  line-height: 1.2;
+}
+main .wrap .contents .right dl {
+  padding-left: 400px;
+}
+main .wrap .contents .right dl dt {
+  font-size: 1.5rem;
+  line-height: 1.2;
+  font-weight: 600;
+}
+main .wrap .contents .right dl dd {
+  font-size: 1.2rem;
+  padding: 10px;
+}
+main .wrap .contents .right .person {
+  width: 400px;
+  position: absolute;
+  top: 30%;
+  left: 35%;
 }
 main .wrap .btm {
-  background: lightblue;
-  width: 100%;
+  margin-left: 50px;
+  width: 90%;
   height: 250px;
 }
 main .wrap .btm h2 {
