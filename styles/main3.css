@@ -1,0 +1,35 @@
+main {
+  height: 100vh;
+  background: #0078d7;
+  display: flex;
+  justify-content: space-between;
+}
+main nav {
+  position: fixed;
+  width: 200px;
+}
+main nav a {
+  margin: 60px auto;
+  display: block;
+  width: 60px;
+  height: 60px;
+  position: relative;
+}
+main nav a .first {
+  position: absolute;
+  z-index: 999;
+}
+main nav a .second {
+  position: absolute;
+  z-index: 888;
+}
+main nav a p {
+  padding: 70px 0;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+}
+main nav a .first:hover {
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}/*# sourceMappingURL=main3.css.map */
