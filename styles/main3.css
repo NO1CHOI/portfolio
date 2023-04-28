@@ -1,8 +1,6 @@
 main {
-  height: 100vh;
+  height: 200vh;
   background: #0078d7;
-  display: flex;
-  justify-content: space-between;
 }
 main nav {
   position: fixed;
@@ -32,4 +30,119 @@ main nav a p {
 main nav a .first:hover {
   opacity: 0;
   transition: opacity 0.3s linear;
+}
+main .container {
+  float: right;
+}
+main .container .first {
+  width: 1600px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+main .container .first .left {
+  padding: 70px;
+}
+main .container .first .left h1 {
+  width: 500px;
+  height: 300px;
+  overflow: hidden;
+}
+main .container .first .left h1 img {
+  width: 100%;
+}
+main .container .first .left h2 {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 600;
+  padding: 20px 0;
+}
+main .container .first .left ul li {
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 10px 0;
+}
+main .container .first .left .page {
+  padding-top: 50px;
+}
+main .container .first .left .page a {
+  background: #fff;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  margin: 20px;
+  font-weight: 600;
+}
+main .container .first .right {
+  display: flex;
+  margin: 70px;
+}
+main .container .first .right .right_wrap {
+  background: url(../images/prectice.jpg);
+  background-size: cover;
+  width: 400px;
+  height: 800px;
+  margin-right: 30px;
+}
+main .container .first .right .right_wrap2 {
+  background: url(../images/prectice2222.jpg);
+  background-size: cover;
+  width: 400px;
+  height: 800px;
+}
+main .container .second {
+  width: 1600px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+main .container .second .left {
+  padding: 70px;
+}
+main .container .second .left h1 {
+  width: 500px;
+  height: 300px;
+  overflow: hidden;
+}
+main .container .second .left h1 img {
+  width: 100%;
+}
+main .container .second .left h2 {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 600;
+  padding: 20px 0;
+}
+main .container .second .left ul li {
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 10px 0;
+}
+main .container .second .left .page {
+  padding-top: 50px;
+}
+main .container .second .left .page a {
+  background: #fff;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  margin: 20px;
+  font-weight: 600;
+}
+main .container .second .right {
+  display: flex;
+  margin: 70px;
+}
+main .container .second .right .right_wrap {
+  background: url(../images/prectice.jpg);
+  background-size: cover;
+  width: 400px;
+  height: 800px;
+  margin-right: 30px;
+}
+main .container .second .right .right_wrap2 {
+  background: url(../images/prectice2222.jpg);
+  background-size: cover;
+  width: 400px;
+  height: 800px;
 }/*# sourceMappingURL=main3.css.map */

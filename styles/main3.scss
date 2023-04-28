@@ -7,10 +7,8 @@ $color5:#f6f1f1;
 //width: 1920px;
 
 main {
-    height: 100vh;
+    height: 200vh;
     background: #0078d7;
-    display:flex;
-    justify-content: space-between;
     nav {
         position:fixed;
         // background:lightblue;
@@ -36,15 +34,95 @@ main {
             }
         }
     }//e:nav
-    .swiper{
-        .swiper-wrapper {
-            .slide1 {
-                .first {
-                    .left {}
-                    .right {}
+    .container {
+        float:right;
+        .first {
+            // background: lightsalmon;
+            width: 1600px;
+            display:flex;
+            flex-flow:row nowrap;
+            justify-content: space-between;
+            .left {
+                padding:70px;
+                h1 {width: 500px; height: 300px; overflow: hidden;
+                    img{width:100%;}}
+                h2 {font-size:2rem; color:#fff;font-weight: 600;padding:20px 0;}
+                ul{
+                    li {
+                        color:#fff;
+                        font-size:1.5rem;
+                        padding:10px 0;
+                    }
                 }
-            }//e:slide1
-            .slide2 {}//e:slide2
+                .page {
+                    padding-top:50px;
+                    a {
+                        background: #fff;
+                        border-radius:20px;
+                        padding:10px 20px;
+                        font-size:1.2rem;margin:20px;
+                        font-weight: 600;
+                    }
+                }
+            }
+            .right {
+                display:flex;
+                margin:70px;
+                .right_wrap {
+                    background: url(../images/prectice.jpg);
+                    background-size: cover;
+                    width:400px;height: 800px;
+                    margin-right:30px;
+                    }
+                .right_wrap2 {
+                    background: url(../images/prectice2222.jpg);
+                    background-size: cover;
+                    width:400px;height: 800px;}
+            }
+        }
+        .second {
+                        // background: lightsalmon;
+                        width: 1600px;
+                        display:flex;
+                        flex-flow:row nowrap;
+                        justify-content: space-between;
+                        .left {
+                            padding:70px;
+                            h1 {width: 500px; height: 300px; overflow: hidden;
+                                img{width:100%;}}
+                            h2 {font-size:2rem; color:#fff;font-weight: 600;padding:20px 0;}
+                            ul{
+                                li {
+                                    color:#fff;
+                                    font-size:1.5rem;
+                                    padding:10px 0;
+                                }
+                            }
+                            .page {
+                                padding-top:50px;
+                                a {
+                                    background: #fff;
+                                    border-radius:20px;
+                                    padding:10px 20px;
+                                    font-size:1.2rem;margin:20px;
+                                    font-weight: 600;
+                                }
+                            }
+                        }
+                        .right {
+                            display:flex;
+                            margin:70px;
+                            .right_wrap {
+                                background: url(../images/prectice.jpg);
+                                background-size: cover;
+                                width:400px;height: 800px;
+                                margin-right:30px;
+                                }
+                            .right_wrap2 {
+                                background: url(../images/prectice2222.jpg);
+                                background-size: cover;
+                                width:400px;height: 800px;}
+                        }
+                    }
         }
     }
-}
