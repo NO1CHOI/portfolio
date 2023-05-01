@@ -1,3 +1,22 @@
+/* Scrollbar css(chrome) */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ccc;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #222;
+  border-radius: 5px;
+}
+
+body, html {
+  scroll-behavior: smooth;
+}
+
 main {
   height: 200vh;
   background: #0078d7;
@@ -72,6 +91,11 @@ main .container .first .left .page a {
   font-size: 1.2rem;
   margin: 20px;
   font-weight: 600;
+  transition: all 0.5s;
+}
+main .container .first .left .page a:hover {
+  background: #ffd662;
+  color: #0078d7;
 }
 main .container .first .right {
   display: flex;
@@ -128,6 +152,11 @@ main .container .second .left .page a {
   font-size: 1.2rem;
   margin: 20px;
   font-weight: 600;
+  transition: all 0.5s;
+}
+main .container .second .left .page a:hover {
+  background: #ffd662;
+  color: #0078d7;
 }
 main .container .second .right {
   display: flex;

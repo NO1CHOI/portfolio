@@ -1,0 +1,129 @@
+//color
+$color1:#0078d7;
+$color2:#ffd662;
+$color3:#fff;
+$color4:#000;
+$color5:#f6f1f1;
+//width: 1920px;
+
+@mixin font1 {
+    color:#fff;font-weight: 700;
+    font-size: 1.5rem; padding:20px 0;
+    padding-bottom: none;
+}
+
+main{
+    width:100%; height: 100vh;
+    background: url(../images/sub-3.png);
+    background-size: cover;
+    nav {
+        position:fixed;
+        // background:lightblue;
+        width:200px;
+        // font-family: 'Righteous';
+        a {
+            margin:60px auto;
+            display: block;
+            width:60px; height: 60px;
+            position:relative;
+            .first {position: absolute;z-index: 999;}
+            .second {position: absolute; z-index: 888;}
+            p {
+                padding:70px 0;
+                color:#fff;
+                font-weight: 600;
+                text-align: center;
+            }
+            .first:hover{
+                opacity:0;
+                transition:opacity 0.3s linear;
+            }
+        }
+    }//e:nav
+    .contents {
+        display:flex;
+        margin: 0 auto;
+        width: 1400px;
+        transform: translate(130px,130px);
+        .left {
+            padding:20px;
+            .bnr1 {
+                width:700px;
+                text-align: center;
+                padding-bottom: 70px;
+                a {
+                    img {width: 100%;}
+                }
+                p {
+                    @include font1;
+                    span {
+                    @include font1;
+                    }
+                }
+            }
+            .bnr2 {
+                width:700px;
+                text-align: center;
+                padding-bottom: 70px;
+                a {
+                    img {width: 100%;}
+                }
+                p {
+                    @include font1;
+                    span {
+                    @include font1;
+                    }
+                }
+            }
+            .bnr3 {
+                width:700px;
+                text-align: center;
+                padding-bottom: 70px;
+                a {
+                    img {width: 100%;}
+                }
+                p {
+                    @include font1;
+                    span {
+                    @include font1;
+                    }
+                }
+            }
+        }
+        .right {
+            .img {
+                width:300px;
+                float:right;
+                padding-bottom: 50px;
+                img {width: 100%;}
+            }
+            .bnr1 {
+            width:700px;
+            text-align: center;
+            padding-bottom: 80px;
+            a {
+                img {width: 100%;}
+            }
+            p {
+                @include font1;
+                span {
+                @include font1;
+                }
+            }
+        }
+        .bnr2 {
+            width:700px;
+            text-align: center;
+            a {
+                img {width: 100%;}
+            }
+            p {
+                @include font1;
+                span {
+                @include font1;
+                }
+                }
+            }
+        }
+    }
+}
