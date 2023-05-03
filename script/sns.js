@@ -13,7 +13,7 @@ view.style.display = 'none'
 sns.forEach((t,i)=>{
     t.addEventListener('click',(e)=>{
         e.preventDefault()// href 막기
-        imgT.src = `./images/sns/sns${i+1}.jpg`
+        imgT.src = `./images/sns/sns${i+1}.png`
         console.log(imgT)
         view.style.display='block'
         contents.appendChild(imgT)

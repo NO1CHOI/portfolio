@@ -10,7 +10,7 @@ view.style.display = 'none'
 bnr.forEach((t,i)=>{
     t.addEventListener('click',(e)=>{
         e.preventDefault()// href 막기
-        imgT.src=`./images/example${i+1}.png`
+        imgT.src=`./images/bnr/bnr${i+1}.png`
         console.log(imgT)
         view.style.display = 'block'
         contents.appendChild(imgT)
