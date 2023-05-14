@@ -1,0 +1,94 @@
+body {
+  height: 100vh;
+}
+
+header {
+  width: 1000px;
+  margin: 0 auto;
+  height: 70px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #333;
+  align-items: center;
+}
+header .logo {
+  text-align: center;
+}
+header .logo img {
+  width: 100%;
+}
+header .member {
+  padding: 12px 30px;
+  background: #5086f3;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+header .member:hover {
+  background-color: #3478FF;
+}
+
+main {
+  width: 400px;
+  margin: 100px auto;
+}
+main h1 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding-bottom: 30px;
+}
+main #login ul li {
+  padding: 10px 0;
+}
+main #login ul li input {
+  padding: 10px;
+  width: 300px;
+  font-size: 0.813rem;
+}
+main #login ul li input:focus {
+  outline: none;
+}
+main #login ul li .login_btn {
+  display: block;
+  background-color: #5086f3;
+  width: 300px;
+  text-align: center;
+  font-weight: 600;
+  color: #fff;
+  padding: 13px 0;
+  border-radius: 10px;
+}
+main .wrap {
+  width: 300px;
+  text-align: right;
+}
+main .wrap a {
+  font-size: 0.813rem;
+}
+main .wrap .pw {
+  font-size: 0.813rem;
+}
+main .wrap .pw::after {
+  content: " |";
+  display: inline;
+  align-items: center;
+  font-size: 0.813rem;
+}
+main .back a {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+  margin-top: 50px;
+}
+main .back a .restart {
+  width: 25px;
+}
+main .back a .restart img {
+  width: 100%;
+}
+main .back a p {
+  font-size: 0.813rem;
+}/*# sourceMappingURL=login_2.css.map */

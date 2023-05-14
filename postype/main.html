@@ -9,51 +9,64 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.3.0/swiper-bundle.min.js"  integrity="sha512-v1aTkv65HxVIr09MzV6eMK2cdYDjS9SlIxxbkcKn3IpNMW2M8xZA5Q4ukp+PS6dMHzTLSxlis1VD6ocAP1Uxmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.3.0/swiper-bundle.css" integrity="sha512-lqoRomS7dBeTZiJcq820nNb+upb6rQGOd3XhWpH7FeJFeZl5sqbh594e8W4+nA9tslOxHilrTpQ+iVkDrcgQVA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/main.css">
 </head>
 <body>
     <header>
         <a href="#"><h1><img src="./images/icon/logo.png" alt="postype"></h1></a>
-        <div clas="search">
-            <a href="#"><img src="./images/icon/search.png" alt=""></a>
-            <input type="text" placeholder="시리즈,채널 검색">
+        <div class="search">
+            <form action="#" metond="get" id="searchFrm">
+                <fieldset>
+                        <legend class="skip">검색양식</legend>
+                    <input type="text" placeholder="검색어를 입력해주세요." name="user_search" id="user_search">
+                    <button type="button" id="search"><img src="./images/icon/search.png" alt=""></button>
+                </fieldset>
+            </form>
         </div>
-        <div class="login">
-            <a href="#" class="login">로그인</a>
+        <div class="login_wrap">
+            <a href="./login_1.html" class="login">로그인</a>
             <a href="#" class="member">회원가입</a>
         </div>
     </header>
     <main>
         <div class="bnr">
-            <img src="./images/main/about_why_postype_01.png" alt="">
-            <h1 class="first">자유롭게 창작하고</h1>
-            <h1 class="second">다양하게 구독하고</h1>
-            <a href="#">포스타입 시작하기</a> 
+            <!-- <div class="bnr_top">
+                <img src="./images/main/about_why_postype_01.png" alt="">
+            </div> -->
+            <div class="bnr_btm">
+                <h1 class="first">자유롭게 창작하고</h1>
+                <h1 class="second">다양하게 구독하고</h1>
+                <a href="./sub_1.html">포스타입 시작하기</a> 
+            </div>
         </div>
         <div class="contents">
-            <a href="#">
-                <img src="./images/main/webtoon.png" alt="">
-                <h2>웹툰</h2>
-            </a>
-            <a href="#">
-                <img src="./images/main/webnovel.png" alt="">
-                <h2>웹소설</h2>
-            </a>
-            <a href="#">
-                <img src="./images/main/original.png" alt="">
-                <h2>창작소재</h2>
-            </a>
-            <a href="#">
-                <img src="./images/main/fanwork.png" alt="">
-                <h2>스토어</h2>
-            </a>
-            <a href="#">
-                <img src="./images/main/class.png" alt="">
-                <h2>클래스</h2>
-            </a>
-            <a href="#">
-                <img src="./images/main/visual_art.png" alt="">
-                <h2>시각예술</h2>
-            </a>
+            <h1>CONTENTS</h1>
+            <div class="contents_wrap">
+                <a href="#" class="img img1">
+                    <!-- <img src="./images/main/webtoon.png" alt=""> -->
+                    <h2>웹툰</h2>
+                </a>
+                <a href="#" class="img img2">
+                    <!-- <img src="./images/main/webnovel.png" alt=""> -->
+                    <h2>웹소설</h2>
+                </a>
+                <a href="#" class="img img3">
+                    <!-- <img src="./images/main/original.png" alt=""> -->
+                    <h2>창작소재</h2>
+                </a>
+                <a href="#" class="img img4">
+                    <!-- <img src="./images/main/fanwork.png" alt=""> -->
+                    <h2>스토어</h2>
+                </a>
+                <a href="#" class="img img5">
+                    <!-- <img src="./images/main/class.png" alt=""> -->
+                    <h2>클래스</h2>
+                </a>
+                <a href="#" class="img img6">
+                    <!-- <img src="./images/main/visual_art.png" alt=""> -->
+                    <h2>시각예술</h2>
+                </a>
+            </div>
         </div>
         <div class="original">
             <h1>POSTYPE ORIGINAL</h1>
@@ -65,63 +78,70 @@
                     <div class="swiper-slide slide3"><img src="./images/main/4d3f8518241422050403583375.png" alt=""></div>
                     <div class="swiper-slide slide4"><img src="./images/main/bb45131801641427028485803.png" alt=""></div>
                     <div class="swiper-slide slide5"><img src="./images/main/ee9cc414761768509530874136.png" alt=""></div>
+                    
                 </div>
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
             </div>
             <a href="#">
                 <p>오리지널에서 감상하기</p>
-                <img src="./images/icon/forward_arrow_icon.png" alt="">
+                <div class="original_btn">
+                    <img src="./images/icon/forward_arrow_icon.png" alt="">
+                </div>
             </a>
         </div>
         <div class="product">
             <h1>PRODUCT</h1>
             <p>포스타입의 유용</p>
-            <div class="contents1">
-                <h2>자유로운 가격설정</h2>
-                <p>컨텐츠의 유료 분량과 가격을 <br>자유롭게 설정할 수 있어요.</p>
-            </div>
-            <div class="contents2">
-                <h2>편리한 에약발행</h2>
-                <p>포스트가 원하는 시간에 공개되도록<br>예약 발행을 설정할 수 있어요.</p>
-            </div>
-            <div class="contents3">
-                <h2>카툰,동영상 오디오 전용 포스트</h2>
-                <p>각각의 콘텐츠 포멧에 최적화된 에디터와<br>뷰어를 제공해요.</p>
-            </div>
-            <div class="contents4">
-                <h2>포스타입 스튜디오</h2>
-                <p>통계,구독자,멤버십 등 창작 활동에 필요한<br>전문적인 기능을 제공해요.</p>
-            </div>
-            <div class="contents5">
-                <h2>자유로운 가격설정</h2>
-                <p>구독,댓글,좋아요와 같은 독자 피드백 알림을<br>편리하게 구분해 볼 수 있어요.</p>
-            </div>
-            <div class="contents6">
-                <h2>일대일 메세지(DM)</h2>
-                <p>일이용자들과 일대일 메세지를<br>주고받을 수 있어요.</p>
-            </div>
-            <div class="contents7">
-                <h2>멀티 프로필 및 채널</h2>
-                <p>계정 하나로 독립된 프로필과 채널을<br>각각 최대 3개까지 만들 수 있어요.</p>
-            </div>
-            <div class="contents8">
-                <h2>창작 활동 증빙 문서 발급</h2>
-                <p>각종 창작 지원사업 참여에 필요한<br>증빙문서를 손쉽게 발급할 수 있어요.</p>
-            </div>
-            <div class="contents9">
-                <h2>성인물로 발행</h2>
-                <p>성인만 열람할 수 있는 콘텐츠를<br>안전하게 발행할 수 있어요.</p>
+            <div class="product_wrap">
+                <div class="content contents1">
+                    <h2>자유로운 가격설정</h2>
+                    <p>컨텐츠의 유료 분량과 가격을 <br>자유롭게 설정할 수 있어요.</p>
+                </div>
+                <div class="content contents2">
+                    <h2>편리한 에약발행</h2>
+                    <p>포스트가 원하는 시간에 공개되도록<br>예약 발행을 설정할 수 있어요.</p>
+                </div>
+                <div class="content contents3">
+                    <h2>카툰,동영상 오디오<br>전용 포스트</h2>
+                    <p>각각의 콘텐츠 포멧에 최적화된 에디터와<br>뷰어를 제공해요.</p>
+                </div>
+                <div class="content contents4">
+                    <h2>포스타입 스튜디오</h2>
+                    <p>통계, 구독자, 멤버십 등 창작 활동에 필요한<br>전문적인 기능을 제공해요.</p>
+                </div>
+                <div class="content contents5">
+                    <h2>자유로운 가격설정</h2>
+                    <p>구독,댓글,좋아요와 같은 독자 피드백 알림을<br>편리하게 구분해 볼 수 있어요.</p>
+                </div>
+                <div class="content contents6">
+                    <h2>일대일 메세지(DM)</h2>
+                    <p>일이용자들과 일대일 메세지를<br>주고받을 수 있어요.</p>
+                </div>
+                <div class="content contents7">
+                    <h2>멀티 프로필 및 채널</h2>
+                    <p>계정 하나로 독립된 프로필과 채널을<br>각각 최대 3개까지 만들 수 있어요.</p>
+                </div>
+                <div class="content contents8">
+                    <h2>창작 활동 증빙 문서 발급</h2>
+                    <p>각종 창작 지원사업 참여에 필요한<br>증빙문서를 손쉽게 발급할 수 있어요.</p>
+                </div>
+                <div class="content contents9">
+                    <h2>성인물로 발행</h2>
+                    <p>성인만 열람할 수 있는 콘텐츠를<br>안전하게 발행할 수 있어요.</p>
+                </div>
             </div>
         </div>
         <div class="btm">
-            <img src="./images/main/about_why_postype_03.png" alt="">
+            <div class="btm_wrap">
+                <!-- <img src="./images/main/about_why_postype_03.png" alt=""> -->
+            </div>
             <p>크리에이터의 성공을 지원하는 포스타입에서<br>지금바로 창작 활동을 시작해보세요.</p>
-            <a href="#">포스타입 시작하기</a>
+            <a href="./login_1.html">포스타입 시작하기</a>
         </div>
     </main>
     <footer>
-        <ul class="footer">
+        <ul class="footer_wrap">
             <li><a href="#">서비스 소개</a></li>
             <li><a href="#">이용약관</a></li>
             <li><a href="#">개인정보처리방침</a></li>

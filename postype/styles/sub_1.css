@@ -1,0 +1,30 @@
+.profile {
+  display: none;
+}
+
+footer {
+  border-top: 1px solid #ccc;
+  padding: 30px;
+}
+footer .footer_wrap {
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer_wrap li a {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 0.875rem;
+}
+footer address {
+  padding: 20px 0;
+  width: 1440px;
+  margin: 0 auto;
+  font-size: 0.813rem;
+  line-height: 1.2;
+}
+footer p {
+  width: 1440px;
+  margin: 0 auto;
+  font-size: 0.813rem;
+}/*# sourceMappingURL=sub_1.css.map */

@@ -1,0 +1,91 @@
+//color: hover: #3478FF / #5086f3
+
+
+body {height: 100vh;}
+header {
+    // background-color: lightblue;
+    width: 1000px;
+    margin:0 auto;
+    height: 70px;
+    text-align: center;
+    display: flex;
+    justify-content:space-between;
+    border-bottom:1px solid #333;
+    align-items: center;
+    .logo {
+        text-align: center;
+        img {width: 100%;}
+    }
+    .member {
+        padding:12px 30px;
+        background:#5086f3;
+        color:#fff;
+        border-radius:10px;
+        font-size: 0.875rem;
+        font-weight: 600;
+    }
+    .member:hover {
+        background-color: #3478FF;
+    }
+}//header
+main {
+    width:500px;
+    margin:0 auto;
+    .top {
+        // background-color: lightblue;
+        margin:100px 0 30px 0;
+        h1 {
+            font-size:1.5rem;
+            font-weight: 600;
+        }
+        p {
+            padding:20px 0;font-size: 0.875rem;
+        }
+    }
+    //공통 ---------------------
+    .login_wrap > * {
+        a {
+            display:flex;
+            align-items: center;
+            padding: 10px 15px;
+            margin: 10px 0;
+            border:1px solid #ccc;
+            border-radius: 10px;
+            .logo {
+                display: block;
+                width: 40px;
+                img {width: 100%;}
+            }
+            p {font-weight: 600;margin-left:10px;font-size: 0.875rem;}
+        }
+        a:hover {border:1px solid #333;}
+    }
+    .login_wrap {
+        width: 400px;
+        // .google {background-color: lightblue;}
+        // .facebook {background-color:lemonchiffon;}
+        // .tweet {background-color: lightgrey;}
+        // .naver {background-color: lightpink;}
+        // .email {background-color: lightslategray;}
+    }
+    .password {
+        text-align: right;
+        width: 400px;
+        // background-color: lightcoral;
+        padding:20px 0;
+        .ps {color:#555;font-weight: 500; font-size: 0.875rem;}
+        .ps:hover {color:black;}
+        .ps::after {
+            content:' |';
+            display: inline;
+            align-items: center;
+        }
+        .id {color:#555;font-weight: 500;font-size: 0.875rem;}
+        .id:hover {color:black;}
+    }//password
+    .btm {
+        padding-top: 100px;
+        width: 400px;
+        p {font-size: 0.813rem;}
+    }
+}//main

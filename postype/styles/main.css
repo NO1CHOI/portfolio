@@ -1,3 +1,335 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  width: 1440px;
+  margin: 0 auto;
+  align-items: center;
+}
+header a h1 {
+  width: 200px;
+}
+header a h1 img {
+  width: 100%;
+}
+header .search {
+  position: relative;
+}
+header .search #searchFrm #user_search {
+  width: 300px;
+  height: 30px;
+  padding: 5px 0 5px 15px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  outline: none;
+  font-size: 0.813rem;
+}
+header .search #searchFrm #search {
+  position: absolute;
+  right: 8px;
+  top: 3px;
+  width: 25px;
+}
+header .search #searchFrm #search img {
+  width: 100%;
+}
+header .login_wrap .login {
+  padding: 5px 20px;
+  border: 1px solid #333;
+  border-radius: 8px;
+  font-size: 0.813rem;
+  font-weight: 600;
+}
+header .login_wrap .member {
+  padding: 5px 20px;
+  background-color: #5086f3;
+  border: 1px solid #333;
+  border-radius: 8px;
+  font-size: 0.813rem;
+  font-weight: 600;
+  color: #fff;
+}
+header .login_wrap .member:hover {
+  background-color: #1E51FF;
+  transition: all 0.5s;
+}
 
+main .bnr {
+  height: 600px;
+  background-image: url(../images/main/about_why_postype_01.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+main .bnr .bnr_btm {
+  position: absolute;
+  right: 18%;
+  top: 35%;
+}
+main .bnr .bnr_btm h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 700;
+  font-family: "Gowun Batang", serif;
+}
+main .bnr .bnr_btm a {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #5086f3;
+  padding: 15px 25px;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 50px;
+}
+main .bnr .bnr_btm a:hover {
+  background-color: #1E51FF;
+  transition: all 0.5s;
+}
+main .contents {
+  width: 1440px;
+  margin: 150px auto;
+}
+main .contents > h1 {
+  color: #262A56;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+main .contents .contents_wrap {
+  width: 1440px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 50px;
+}
+main .contents .contents_wrap a {
+  display: block;
+  margin: 20px;
+  width: 400px;
+  height: 280px;
+}
+main .contents .contents_wrap a h2 {
+  font-family: "Jua", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 50px;
+  color: #333;
+}
+main .contents .contents_wrap .img:hover {
+  background-size: 90%;
+  transition: all 0.5s;
+  box-shadow: 5px 5px 5px 5px rgba(83, 79, 79, 0.5);
+}
+main .contents .contents_wrap .img1 {
+  background-image: url(../images/main/webtoon.png);
+  background-color: #ADC4F1;
+  border-radius: 10%;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 80%;
+}
+main .contents .contents_wrap .img2 {
+  background-image: url(../images/main/webnovel.png);
+  background-color: #BDB8EE;
+  border-radius: 10%;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 80%;
+}
+main .contents .contents_wrap .img3 {
+  background-image: url(../images/main/original.png);
+  background-color: #CCC6D2;
+  border-radius: 10%;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 80%;
+}
+main .contents .contents_wrap .img4 {
+  background-image: url(../images/main/fanwork.png);
+  background-color: #A8D0DC;
+  border-radius: 10%;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 80%;
+}
+main .contents .contents_wrap .img5 {
+  background-image: url(../images/main/class.png);
+  background-color: #D4E3EF;
+  border-radius: 10%;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 80%;
+}
+main .contents .contents_wrap .img6 {
+  background-image: url(../images/main/visual_art.png);
+  background-color: #C79D8F;
+  border-radius: 10%;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 80%;
+}
+main .original {
+  width: 1440px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+main .original > h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #262A56;
+}
+main .original > p {
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 700;
+  width: 1440px;
+  margin: 40px auto;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #444;
+  line-height: 1.2;
+}
+main .original .swiper-container {
+  width: 1100px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+main .original .swiper-container .swiper-button-prev {
+  color: black;
+}
+main .original .swiper-container .swiper-button-next {
+  color: black;
+}
+main .original a {
+  display: inline-block;
+  margin-top: 60px;
+  position: relative;
+}
+main .original a p {
+  padding: 20px 70px 20px 40px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  font-weight: 700;
+}
+main .original a .original_btn {
+  width: 40px;
+  position: absolute;
+  top: 18%;
+  right: 5%;
+}
+main .original a .original_btn img {
+  width: 100%;
+}
+main .product {
+  width: 1440px;
+  margin: 150px auto;
+}
+main .product > h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #262A56;
+}
+main .product > p {
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 700;
+  width: 1440px;
+  margin: 40px auto;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #444;
+  line-height: 1.2;
+}
+main .product .product_wrap {
+  width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+main .product .product_wrap .content {
+  display: block;
+  width: 300px;
+  height: 180px;
+  margin: 20px;
+  background-color: #fff;
+  text-align: center;
+  border: 2px solid #555;
+  border-radius: 20px;
+}
+main .product .product_wrap .content h2 {
+  color: #262A56;
+  padding: 20px 0;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-family: "Nanum Gothic", sans-serif;
+}
+main .product .product_wrap .content p {
+  font-family: "Nanum Gothic", sans-serif;
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+main .btm {
+  margin: 150px auto;
+  text-align: center;
+  padding-bottom: 100px;
+}
+main .btm .btm_wrap {
+  height: 300px;
+  width: 1440px;
+  margin: 0 auto;
+  background-image: url(../images/main/about_why_postype_03.png);
+  background-position: center;
+  background-size: cover;
+}
+main .btm img {
+  width: 100%;
+}
+main .btm p {
+  padding: 50px;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  font-weight: 600;
+}
+main .btm a {
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  background-color: #5086f3;
+  border-radius: 10px;
+  padding: 20px 30px;
+}
+main .btm a:hover {
+  background-color: #1E51FF;
+  transition: all 0.5s;
+}
 
-/*# sourceMappingURL=main.css.map */
+footer {
+  border-top: 1px solid #ccc;
+  padding: 30px;
+}
+footer .footer_wrap {
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer_wrap li a {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 0.875rem;
+}
+footer address {
+  padding: 20px 0;
+  width: 1440px;
+  margin: 0 auto;
+  font-size: 0.813rem;
+  line-height: 1.2;
+}
+footer p {
+  width: 1440px;
+  margin: 0 auto;
+  font-size: 0.813rem;
+}/*# sourceMappingURL=main.css.map */

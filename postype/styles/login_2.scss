@@ -1,0 +1,86 @@
+//color: hover: #3478FF / #5086f3
+//13px = 0.813rem
+//14px = 0.875rem
+//width: 400px;
+
+
+body {height: 100vh;}
+header {
+    // background-color: lightblue;
+    width: 1000px;
+    margin:0 auto;
+    height: 70px;
+    text-align: center;
+    display: flex;
+    justify-content:space-between;
+    border-bottom:1px solid #333;
+    align-items: center;
+    .logo {
+        text-align: center;
+        img {width: 100%;}
+    }
+    .member {
+        padding:12px 30px;
+        background:#5086f3;
+        color:#fff;
+        border-radius:10px;
+        font-size: 0.875rem;
+        font-weight: 600;
+    }
+    .member:hover {
+        background-color: #3478FF;
+    }
+}//header
+main {
+    width: 400px;
+    margin:100px auto;
+    h1 {font-weight: 600;font-size:1.5rem;padding-bottom:30px;}
+    #login {
+        ul {
+            li {
+                padding:10px 0;
+                input {
+                    padding:10px;width: 300px;font-size:0.813rem;
+                }
+                input:focus {outline:none;}
+                .login_btn {
+                    display:block;
+                    background-color:#5086f3;
+                    width: 300px;
+                    text-align: center;
+                    font-weight: 600;
+                    color:#fff;
+                    padding:13px 0;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }//login
+    .wrap {
+        width:300px;
+        text-align: right;
+        a {font-size:0.813rem;}
+        .pw {font-size:0.813rem;}
+        .pw::after {
+            content:' |';
+            display: inline;
+            align-items: center;
+            font-size:0.813rem;
+        }
+    }
+    .back {
+        a {
+            // background-color: #3478FF;
+            display:flex;
+            align-items: center;
+            width: 100px;
+            height: 30px;
+            margin-top:50px;
+            .restart {
+                width:25px;
+                img {width: 100%;}
+            }
+            p {font-size:0.813rem;}
+        }
+    }
+}

@@ -1,11 +1,23 @@
+// let slide = new Swiper('.swiper-container',{
+//     direction:'horizontal',
+//     autoplay:{delay:1000,},
+//     navigation:{
+//         nextEl:'.swiper-button-next',
+//         prevEl:'.swiper-button-prev'
+//         },
+//     slidesPerView:3,
+//     spaceBetween:100,
+//     })
+
 let slide = new Swiper('.swiper-container',{
     direction:'horizontal',
-    autoplay:{delay:3000,},
     loop:true,
+    autoplay:{delay:2000,disableOnInteraction:false,},
     navigation:{
         nextEl:'.swiper-button-next',
         prevEl:'.swiper-button-prev'
         },
-    slidesPerView:1,
+    slidesPerView:3,
     spaceBetween:100,
+    centeredSlides:true
     })

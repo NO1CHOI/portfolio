@@ -1,0 +1,71 @@
+//color: hover: #1E51FF,#5086f3 ,color:#262A56;color:#19A7CE;
+//backgorund: #ADC4F1,#BDB8EE,#CCC6D2,#A8D0DC,#D4E3EF,#C79D8F,
+//13px = 0.813rem
+//14px = 0.875rem
+//width: 1440px;
+//header 70px;
+//bnr height: 600px;
+$font1: 'Jua', sans-serif;
+$font2:'Nanum Gothic', sans-serif;
+$font3: 'Gowun Batang', serif;
+
+@mixin font1 {
+    text-align: center;
+    font-size:2.5rem;
+    font-weight:600;
+}
+@mixin font2 {
+    font-family: $font2;
+    font-weight: 700;
+    width:1440px;
+    margin:40px auto;
+    text-align:center;
+    font-size:1.2rem;
+    color:#444;
+    line-height: 1.2;
+}
+@mixin contents {
+    // border: 3px solid #aaa;
+    border-radius:10%;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80%;
+}
+
+
+
+
+
+//----------------profile---------
+.profile {display:none;}
+
+
+footer {
+    // background-color: #ccc;
+    border-top:1px solid #ccc;
+    padding:30px;
+    .footer_wrap {
+        width: 1440px;
+        margin:0 auto;
+        display:flex;
+        justify-content: space-between;
+        li {
+            a {
+                font-family: $font2;
+                font-size: 0.875rem;
+            }
+        }
+    }
+    address {
+        padding:20px 0;
+        width: 1440px;
+        margin:0 auto;
+        font-size:0.813rem;
+        line-height: 1.2;
+    }
+    p {
+        width: 1440px;
+        margin:0 auto;
+        font-size:0.813rem;
+    }
+}
