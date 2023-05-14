@@ -2,6 +2,130 @@
   display: none;
 }
 
+header {
+  width: 1440px;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header a h1 {
+  width: 200px;
+}
+header a h1 img {
+  width: 100%;
+}
+header .search {
+  position: relative;
+}
+header .search #searchFrm #user_search {
+  width: 300px;
+  height: 30px;
+  padding: 5px 0 5px 15px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  outline: none;
+  font-size: 0.813rem;
+}
+header .search #searchFrm #search {
+  position: absolute;
+  right: 8px;
+  top: 3px;
+  width: 25px;
+}
+header .search #searchFrm #search img {
+  width: 100%;
+}
+header .right {
+  display: flex;
+  align-items: center;
+}
+header .right > a {
+  padding: 5px 20px;
+  border: 1px solid #333;
+  border-radius: 8px;
+  font-size: 0.813rem;
+  font-weight: 600;
+}
+header .right .header_wrap {
+  display: flex;
+  width: 70px;
+}
+header .right .header_wrap a {
+  margin-right: 10px;
+}
+header .right .header_wrap a img {
+  width: 100%;
+}
+
+main .swiper-container {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+main .swiper-container .swiper_btn .swiper-button-prev {
+  color: #fff;
+  left: 250px;
+}
+main .swiper-container .swiper_btn .swiper-button-next {
+  color: #fff;
+  right: 250px;
+}
+main .swiper-container .swiper-wrapper {
+  height: 400px;
+}
+main .swiper-container .swiper-wrapper .swiper-slide {
+  background-position: center;
+  background-repeat: no-repeat;
+}
+main .swiper-container .swiper-wrapper .slide1 {
+  background-image: url(../images/sub/bnr1.png);
+}
+main .swiper-container .swiper-wrapper .slide2 {
+  background-image: url(../images/sub/bnr2.png);
+}
+main .swiper-container .swiper-wrapper .slide3 {
+  background-image: url(../images/sub/bnr3.png);
+}
+main .swiper-container .swiper-wrapper .slide4 {
+  background-image: url(../images/sub/bnr4.png);
+}
+main .swiper-container .swiper-wrapper .slide5 {
+  background-image: url(../images/sub/bnr5.png);
+}
+main .swiper-container .swiper-wrapper .slide6 {
+  background-image: url(../images/sub/bnr6.png);
+}
+main .contents {
+  width: 1440px;
+  margin: 30px auto;
+}
+main .contents ul {
+  display: flex;
+  justify-content: space-between;
+}
+main .contents ul li {
+  border-bottom: 2px solid black;
+}
+main .contents ul li a {
+  display: block;
+  text-align: center;
+  line-height: 40px;
+  width: 150px;
+  height: 40px;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #262A56;
+}
+main .contents ul li a:hover {
+  background-color: #1E51FF;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  color: #fff;
+}
 footer {
   border-top: 1px solid #ccc;
   padding: 30px;

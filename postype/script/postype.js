@@ -12,6 +12,7 @@
 let slide = new Swiper('.swiper-container',{
     direction:'horizontal',
     loop:true,
+    loopAdditionalSlides : 1,
     autoplay:{delay:2000,disableOnInteraction:false,},
     navigation:{
         nextEl:'.swiper-button-next',

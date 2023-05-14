@@ -75,14 +75,22 @@
         </div>
     </div>
     <header>
-        <a href="#"><h1><img src="./images/icon/logo.png" alt="postype"></h1></a>
+        <a href="./main.html"><h1><img src="./images/icon/logo.png" alt="postype"></h1></a>
         <div class="search">
-            <a href="#"><img src="./images/icon/search.png" alt=""></a>
-            <input type="text" placeholder="시리즈,채널 검색">
+            <form action="#" metond="get" id="searchFrm">
+                <fieldset>
+                        <legend class="skip">검색양식</legend>
+                    <input type="text" placeholder="검색어를 입력해주세요." name="user_search" id="user_search">
+                    <button type="button" id="search"><img src="./images/icon/search.png" alt=""></button>
+                </fieldset>
+            </form>
         </div>
         <div class="right">
-            <a href="#" class=""></a>
-            <a href="#" class="member">회원가입</a>
+                <div class="header_wrap">
+                    <a href="#"><img src="./images/icon/bell.png" alt=""></a>
+                    <a href="#"><img src="./images/icon/sub_mail.png" alt=""></a>
+                </div>
+            <a href="#" class="member">아이디</a>
         </div>
     </header>
     <main>
@@ -91,16 +99,18 @@
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
                 <!-- Slides -->
-                <div class="swiper-slide slide1"><img src="./images/sub/bnr11.png" alt=""></div>
-                <div class="swiper-slide slide2"><img src="./images/sub/bnr1.png" alt=""></div>
-                <div class="swiper-slide slide3"><img src="./images/sub/bnr2.png" alt=""></div>
-                <div class="swiper-slide slide4"><img src="./images/sub/bnr3.png" alt=""></div>
-                <div class="swiper-slide slide5"><img src="./images/sub/bnr4.png" alt=""></div>
-                <div class="swiper-slide slide6"><img src="./images/sub/bnr5.png" alt=""></div>
+                <div class="swiper-slide slide1"><!-- <img src="./images/sub/bnr11.png" alt=""> --></div>
+                <div class="swiper-slide slide2"><!-- <img src="./images/sub/bnr1.png" alt=""> --></div>
+                <div class="swiper-slide slide3"><!-- <img src="./images/sub/bnr2.png" alt=""> --></div>
+                <div class="swiper-slide slide4"><!-- <img src="./images/sub/bnr3.png" alt=""> --></div>
+                <div class="swiper-slide slide5"><!-- <img src="./images/sub/bnr4.png" alt=""> --></div>
+                <div class="swiper-slide slide6"><!-- <img src="./images/sub/bnr5.png" alt=""> --></div>
             </div>
             <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
+            <div class="swiper_btn">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
         </div>
         <div class="contents">
             <ul>
@@ -507,5 +517,5 @@
         <p>포스타입은 통신판매중개자이며 통신판매의 당사자가 아닙니다. 따라서 포스타입은 콘텐츠, 거래정보 및 거래에 대하여 책임을 지지 않습니다. </p>
     </footer>
 </body>
-<!-- <script src="./script/sub_1.js"></script> -->
+<script src="./script/sub_1.js"></script>
 </html>
