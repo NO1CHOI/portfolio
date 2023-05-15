@@ -1,5 +1,162 @@
 .profile {
+  position: absolute;
+  top: 25px;
+  right: 83px;
+  z-index: 9999;
+}
+.profile .home {
+  background-color: #fff;
+  border: 1px solid #222;
+  width: 230px;
+}
+.profile .home .top {
+  display: flex;
+  justify-content: left;
+  text-align: center;
+  align-items: center;
+  padding: 10px 0 10px 10px;
+  border-bottom: 1px solid #ccc;
+}
+.profile .home .top .profile_img {
+  width: 40px;
+  height: 40px;
+  background-image: url(../images/profile.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 25px;
+  overflow: hidden;
+}
+.profile .home .top p {
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding: 10px 10px;
+}
+.profile .home .top a {
+  background-color: lightgray;
+  border-radius: 50px;
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin-left: 50px;
+}
+.profile .home .top a img {
+  width: 100%;
+}
+.profile nav .home_top {
+  border-bottom: 1px solid #222;
+}
+.profile nav .home_top li {
+  padding: 10px 15px;
+}
+.profile nav .home_top li a {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 0.875rem;
+}
+.profile .btm .home_btm li {
+  padding: 10px 15px;
+}
+.profile .btm .home_btm li a {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 0.875rem;
+}
+.profile .btm .home_btm li:last-child {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 0.875rem;
+  background: #555;
+  color: #fff;
+}
+.profile .btm .home_btm li:last-child a {
+  color: #fff;
+}
+
+/* ----------change----------- */
+.profile_change {
   display: none;
+  position: absolute;
+  top: 25px;
+  right: 83px;
+  z-index: 999;
+  width: 230px;
+  height: 300px;
+  border: 1px solid #222;
+}
+.profile_change .top {
+  background-color: #fff;
+  display: flex;
+  justify-content: left;
+  text-align: center;
+  align-items: center;
+  padding: 10px 0 10px 10px;
+  border-bottom: 1px solid #ccc;
+}
+.profile_change .top .profile_img {
+  width: 40px;
+  height: 40px;
+  background-image: url(../images/profile.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 25px;
+  overflow: hidden;
+}
+.profile_change .top p {
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding: 10px 10px;
+}
+.profile_change .top a {
+  background-color: lightgray;
+  border-radius: 50px;
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin-left: 50px;
+}
+.profile_change .top a img {
+  width: 100%;
+}
+.profile_change .user_list {
+  border: 1px solid #ccc;
+  height: 250px;
+  background-color: #fff;
+  position: relative;
+}
+.profile_change .user_list ul li {
+  padding: 10px 15px;
+}
+.profile_change .user_list ul li a {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+}
+.profile_change .user_list ul li a .user {
+  display: block;
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+}
+.profile_change .user_list ul li a .user img {
+  width: 100%;
+}
+.profile_change .user_list ul li:last-child {
+  border-top: 1px solid #555;
+  align-items: center;
+}
+.profile_change .user_list ul li:last-child a {
+  font-weight: 700;
+  font-size: 0.813rem;
+}
+.profile_change .user_list ul li:last-child a .user {
+  width: 15px;
+}
+.profile_change .user_list .user_id {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+  font-size: 0.813rem;
 }
 
 header {
@@ -59,6 +216,10 @@ header .right .header_wrap a img {
   width: 100%;
 }
 
+main {
+  /* ------------event----------------- */
+  /* ------------original------------------- */
+}
 main .swiper-container {
   width: 100%;
   margin: 0 auto;
@@ -120,12 +281,486 @@ main .contents ul li a {
   font-weight: 600;
   color: #262A56;
 }
-main .contents ul li a:hover {
+main .contents ul li .active {
   background-color: #1E51FF;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   color: #fff;
 }
+main .subscribe .title {
+  width: 1440px;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+main .subscribe .title h1 {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 0 30px;
+}
+main .subscribe .title a {
+  border: 1px solid #444;
+  padding: 10px 10px;
+  font-size: 0.875rem;
+}
+main .subscribe .contain {
+  padding-top: 30px;
+  width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+main .subscribe .contain li {
+  border: 1px solid #bbb;
+  margin: 5px;
+}
+main .subscribe .contain li a .author {
+  width: 230px;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+}
+main .subscribe .contain li a .author1 {
+  background-image: url(../images/sub/1.png);
+}
+main .subscribe .contain li a .author2 {
+  background-image: url(../images/sub/2.png);
+}
+main .subscribe .contain li a .author3 {
+  background-image: url(../images/sub/3.png);
+}
+main .subscribe .contain li a .author4 {
+  background-image: url(../images/sub/4.png);
+}
+main .subscribe .contain li a .author5 {
+  background-image: url(../images/sub/5.png);
+}
+main .subscribe .contain li a .author6 {
+  background-image: url(../images/sub/6.png);
+}
+main .subscribe .contain li a p {
+  background-color: #fff;
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 600;
+  padding: 10px 0;
+  border-top: 1px solid black;
+}
+main .subscribe .contain li a span {
+  font-size: 0.813rem;
+  display: none;
+}
+main .subscribe .contain li:hover {
+  border: 1px solid #222;
+  transition: all 0.5s;
+}
+main .ranking_wrap {
+  width: 1440px;
+  margin: 100px auto;
+  /* Webnovel ------------------------------------------ */
+}
+main .ranking_wrap .webtoon {
+  display: flex;
+}
+main .ranking_wrap .webtoon .webtoon_rank h1 {
+  display: block;
+  width: 650px;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  border-bottom: 1px solid #ccc;
+  padding: 30px 0;
+}
+main .ranking_wrap .webtoon .webtoon_rank a {
+  display: flex;
+  margin-top: 50px;
+  position: relative;
+}
+main .ranking_wrap .webtoon .webtoon_rank a .ranking {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background: #1E51FF;
+  color: #fff;
+  padding: 10px;
+  font-weight: 700;
+  border: 1px solid #ccc;
+}
+main .ranking_wrap .webtoon .webtoon_rank a .thumnail {
+  width: 200px;
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+}
+main .ranking_wrap .webtoon .webtoon_rank .thumnail1 {
+  background-image: url(../images/sub/18.png);
+}
+main .ranking_wrap .webtoon .webtoon_rank .thumnail2 {
+  background-image: url(../images/sub/17.png);
+}
+main .ranking_wrap .webtoon .webtoon_rank .thumnail3 {
+  background-image: url(../images/sub/16.png);
+}
+main .ranking_wrap .webtoon .webtoon_rank .thumnail4 {
+  background-image: url(../images/sub/15.png);
+}
+main .ranking_wrap .webtoon .webtoon_rank .thumnail5 {
+  background-image: url(../images/sub/14.png);
+}
+main .ranking_wrap .webtoon .webtoon_rank .thumnail6 {
+  background-image: url(../images/sub/13.png);
+}
+main .ranking_wrap .webtoon .title {
+  margin: auto 0;
+}
+main .ranking_wrap .webtoon .title h2 {
+  display: block;
+  font-size: 1.5rem;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 700;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  width: 450px;
+}
+main .ranking_wrap .webtoon .title p {
+  font-size: 0.875rem;
+  font-family: "Nanum Gothic", sans-serif;
+  padding: 30px 10px;
+  line-height: 1.2;
+}
+main .ranking_wrap .webtoon .title .wrap {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+}
+main .ranking_wrap .webtoon .title .wrap .love {
+  width: 100px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+}
+main .ranking_wrap .webtoon .title .wrap .love p {
+  font-weight: 700;
+  padding: 5px;
+}
+main .ranking_wrap .webtoon .title .wrap .coment {
+  width: 100px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+}
+main .ranking_wrap .webtoon .title .wrap .coment p {
+  font-weight: 700;
+  padding: 5px;
+}
+main .ranking_wrap .webtoon .title .wrap .view {
+  width: 100px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+}
+main .ranking_wrap .webtoon .title .wrap .view p {
+  font-weight: 700;
+  padding: 5px;
+}
+main .ranking_wrap .webtoon .title .tag ul {
+  display: flex;
+}
+main .ranking_wrap .webtoon .title .tag ul li {
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 700;
+  font-size: 0.875rem;
+  width: 80px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+}
+main .ranking_wrap .webtoon .hot_webtoon {
+  padding-left: 100px;
+}
+main .ranking_wrap .webtoon .hot_webtoon h1 {
+  display: inline-block;
+  width: 650px;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  border-bottom: 1px solid #ccc;
+  padding: 30px 0;
+}
+main .ranking_wrap .webtoon .hot_webtoon a {
+  display: flex;
+  margin-top: 50px;
+  position: relative;
+}
+main .ranking_wrap .webtoon .hot_webtoon a .ranking {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background: #1E51FF;
+  color: #fff;
+  padding: 10px;
+  font-weight: 700;
+  border: 1px solid #ccc;
+}
+main .ranking_wrap .webtoon .hot_webtoon a .thumnail {
+  width: 200px;
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+}
+main .ranking_wrap .webtoon .hot_webtoon .thumnail4 {
+  background-image: url(../images/sub/15.png);
+}
+main .ranking_wrap .webtoon .hot_webtoon .thumnail5 {
+  background-image: url(../images/sub/14.png);
+}
+main .ranking_wrap .webtoon .hot_webtoon .thumnail6 {
+  background-image: url(../images/sub/13.png);
+}
+main .ranking_wrap .webnovel {
+  margin-top: 100px;
+  display: flex;
+}
+main .ranking_wrap .webnovel .title {
+  margin: auto 0;
+}
+main .ranking_wrap .webnovel .title h2 {
+  display: block;
+  font-size: 1.5rem;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 700;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  width: 450px;
+}
+main .ranking_wrap .webnovel .title p {
+  font-size: 0.875rem;
+  font-family: "Nanum Gothic", sans-serif;
+  padding: 50px 10px;
+  line-height: 1.2;
+}
+main .ranking_wrap .webnovel .title .wrap {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+}
+main .ranking_wrap .webnovel .title .wrap .love {
+  width: 100px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+}
+main .ranking_wrap .webnovel .title .wrap .love p {
+  font-weight: 700;
+  padding: 5px;
+}
+main .ranking_wrap .webnovel .title .wrap .coment {
+  width: 100px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+}
+main .ranking_wrap .webnovel .title .wrap .coment p {
+  font-weight: 700;
+  padding: 5px;
+}
+main .ranking_wrap .webnovel .title .wrap .view {
+  width: 100px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+}
+main .ranking_wrap .webnovel .title .wrap .view p {
+  font-weight: 700;
+  padding: 5px;
+}
+main .ranking_wrap .webnovel .title .tag ul {
+  display: flex;
+}
+main .ranking_wrap .webnovel .title .tag ul li {
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 700;
+  font-size: 0.875rem;
+  width: 80px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+}
+main .ranking_wrap .webnovel .novel_rank h1 {
+  display: block;
+  width: 650px;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  border-bottom: 1px solid #ccc;
+  padding: 30px 0;
+}
+main .ranking_wrap .webnovel .novel_rank a {
+  display: flex;
+  margin-top: 50px;
+  position: relative;
+}
+main .ranking_wrap .webnovel .novel_rank a .ranking {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background: #1E51FF;
+  color: #fff;
+  padding: 10px;
+  font-weight: 700;
+  border: 1px solid #ccc;
+}
+main .ranking_wrap .webnovel .novel_rank a .thumnail {
+  width: 200px;
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+}
+main .ranking_wrap .webnovel .novel_rank .thumnail1 {
+  background-image: url(../images/sub/novel1.png);
+}
+main .ranking_wrap .webnovel .novel_rank .thumnail2 {
+  background-image: url(../images/sub/novel2.png);
+}
+main .ranking_wrap .webnovel .novel_rank .thumnail3 {
+  background-image: url(../images/sub/novel3.png);
+}
+main .ranking_wrap .webnovel .hot_novel {
+  padding-left: 50px;
+}
+main .ranking_wrap .webnovel .hot_novel h1 {
+  display: block;
+  width: 650px;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  border-bottom: 1px solid #ccc;
+  padding: 30px 0;
+}
+main .ranking_wrap .webnovel .hot_novel a {
+  display: flex;
+  margin-top: 50px;
+  position: relative;
+}
+main .ranking_wrap .webnovel .hot_novel a .ranking {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background: #1E51FF;
+  color: #fff;
+  padding: 10px;
+  font-weight: 700;
+  border: 1px solid #ccc;
+}
+main .ranking_wrap .webnovel .hot_novel a .thumnail {
+  width: 200px;
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+}
+main .ranking_wrap .webnovel .hot_novel .thumnail4 {
+  background-image: url(../images/sub/novel1.png);
+}
+main .ranking_wrap .webnovel .hot_novel .thumnail5 {
+  background-image: url(../images/sub/novel2.png);
+}
+main .ranking_wrap .webnovel .hot_novel .thumnail6 {
+  background-image: url(../images/sub/novel3.png);
+}
+main .event {
+  width: 1440px;
+  height: 200px;
+  margin: 0 auto;
+  background-image: url(../images/sub/bnr10.png);
+  background-position: top;
+  background-size: cover;
+}
+main .original {
+  width: 1440px;
+  margin: 100px auto;
+}
+main .original .original_wrap .title {
+  width: 1440px;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+main .original .original_wrap .title h1 {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 0 30px;
+}
+main .original .original_wrap .title a {
+  border: 1px solid #444;
+  padding: 10px 10px;
+  font-size: 0.875rem;
+}
+main .original .original_wrap .contain {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+main .original .original_wrap .contain li {
+  border: 1px solid #bbb;
+  padding-bottom: 10px;
+}
+main .original .original_wrap .contain li a p:nth-child(2) {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #5086f3;
+  color: #fff;
+}
+main .original .original_wrap .contain li a p:nth-child(2):hover {
+  background-color: #1E51FF;
+  color: #fff;
+  transition: all 0.5s;
+}
+main .original .original_wrap .contain li a p:nth-child(3) {
+  font-size: 0.813rem;
+  padding: 10px 0;
+  text-align: center;
+}
+main .original .original_wrap .contain li a .original_wrap {
+  width: 230px;
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+}
+main .original .original_wrap .contain li a .wrap1 {
+  background-image: url(../images/sub/7.png);
+}
+main .original .original_wrap .contain li a .wrap2 {
+  background-image: url(../images/sub/8.png);
+}
+main .original .original_wrap .contain li a .wrap3 {
+  background-image: url(../images/sub/9.png);
+}
+main .original .original_wrap .contain li a .wrap4 {
+  background-image: url(../images/sub/10.png);
+}
+main .original .original_wrap .contain li a .wrap5 {
+  background-image: url(../images/sub/11.png);
+}
+main .original .original_wrap .contain li a .wrap6 {
+  background-image: url(../images/sub/12.png);
+}
+
 footer {
   border-top: 1px solid #ccc;
   padding: 30px;

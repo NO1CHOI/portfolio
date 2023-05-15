@@ -6,6 +6,15 @@
 //header 70px;
 //bnr height: 600px;
 
+//랭킹 h1 요소
+// h1 {
+//     display: inline-block;
+//     width:650px;
+//     font-family: $font2;font-size: 2rem;font-weight: 700;
+//     border-bottom:1px solid #ccc;
+//     padding:30px 0;
+// }
+
 $font1: 'Jua', sans-serif;
 $font2:'Nanum Gothic', sans-serif;
 $font3: 'Gowun Batang', serif;
@@ -35,8 +44,140 @@ $font3: 'Gowun Batang', serif;
 
 
 //----------------profile---------
-.profile {display:none;}
+.profile {
+    position:absolute; top:25px;right:83px;z-index: 9999;
+    .home {
+        background-color: #fff;
+        border: 1px solid #222;
+        // background-color: lightblue;
+        width:230px;
+        .top {
+            display:flex;
+            justify-content:left;
+            text-align: center;
+            align-items: center;
+            padding:10px 0 10px 10px;
+            border-bottom:1px solid #ccc;
+            .profile_img {
+                width: 40px;
+                height:40px;
+                background-image: url(../images/profile.jpg);
+                background-position: center;
+                background-size: cover;
+                border-radius: 25px;
+                overflow: hidden;
+            }
+            p {font-family: $font2; font-weight: 700;font-size: 1.2rem; padding:10px 10px;}
+            a {
+                background-color: lightgray;
+                border-radius: 50px;
+                display: block;
+                width: 30px;
+                height: 30px;
+                margin-left:50px;
+                img {width: 100%;}
+            }
+        }
+    }
+    nav {
+        .home_top {
+            // background-color: lightblue;
+            border-bottom: 1px solid #222;
+            li {
+                padding:10px 15px;
+                a {font-family: $font2; font-size:0.875rem;}
+            }
+        }
+    }
+    .btm {
+        // background-color: lemonchiffon;
+        .home_btm {
+            li {
+                padding:10px 15px;
+                a {font-family: $font2; font-size:0.875rem;}
+            }
+            li:last-child {font-family: $font2; font-size:0.875rem;background:#555;color:#fff;}
+            li:last-child { a{color:#fff;}}
+        }
+    }
+}//profile
+/* ----------change----------- */
+.profile_change {
+    display:none;
+    position:absolute; top:25px;right:83px;z-index: 999;
+    width: 230px;
+    height:300px;
+    border: 1px solid #222;
+    .top {
+        background-color: #fff;
+        // border: 1px solid #222
+        display:flex;
+        justify-content:left;
+        text-align: center;
+        align-items: center;
+        padding:10px 0 10px 10px;
+        border-bottom:1px solid #ccc;
+            .profile_img {
+                width: 40px;
+                height:40px;
+                background-image: url(../images/profile.jpg);
+                background-position: center;
+                background-size: cover;
+                border-radius: 25px;
+                overflow: hidden;
+                }
+            p {font-family: $font2; font-weight: 700;font-size: 1.2rem; padding:10px 10px;}
+            a {
+                background-color: lightgray;
+                border-radius: 50px;
+                display: block;
+                width: 30px;
+                height: 30px;
+                margin-left:50px;
+                img {width: 100%;}
+            }
+        }
+    .user_list {
+        border: 1px solid #ccc;
+        height: 250px;
+        background-color:#fff;
+        position:relative;
+        ul {
+            li {
+                padding:10px 15px;
+                a {font-family: $font2; font-size:0.875rem;
+                    display:flex;
+                    align-items: center;
+                    .user {
+                        display:block;
+                        margin-right:10px;
+                        width: 25px;height:25px;
+                        img {width: 100%;}
+                    }
+                }
+            }
+            li:last-child {
+                border-top:1px solid #555;
+                align-items: center;
+                a{
+                    font-weight: 700; font-size:0.813rem;
+                    .user {
+                        width:15px;
+                    }
+                }
+            }
+        }
+        .user_id {
+            // background-color:lemonchiffon;
+            position:absolute;bottom:0;right:0;
+            padding:10px;font-size:0.813rem;
+        }
+    }
+}
 
+
+
+//------------------header-------------
 header {
     // background-color:lightblue;
     width:1440px;
@@ -118,9 +259,11 @@ main {
         width: 1440px;
         margin:30px auto;
         ul {
+            // background-color: lightblue;
             display:flex;
             justify-content: space-between;
             li {border-bottom:2px solid black;
+                
                 // width: 150px;height:40px;
                 // text-align: center;
                 // line-height: 40px;
@@ -131,20 +274,407 @@ main {
                     width: 150px;height:40px;
                     font-family: $font2; font-size:1.2rem;
                     font-weight:600;color:#262A56;
-                    
                 }
-                a:hover {
+                .active {
                     background-color:#1E51FF;
                     border-top-left-radius:20px;
                     border-top-right-radius:20px;
                     color:#fff;
                 }
+                // a:hover {
+                //     background-color:#1E51FF;
+                //     border-top-left-radius:20px;
+                //     border-top-right-radius:20px;
+                //     color:#fff;
+                // }
             }
         }
     }//contents
     //contents----------------------------------------
-    .subscribe {}
+    .subscribe {
+        .title {
+            // background-color: lightblue;
+            width: 1440px;
+            height: 80px;
+            margin:0 auto;
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom:1px solid #ccc;
+            h1 {font-family:$font2; font-size: 2rem;font-weight: 700;padding:0 30px;}
+            a {
+                border:1px solid #444;
+                padding:10px 10px;
+                font-size:0.875rem;
+            }
+        }//title
+        .contain {
+            // background-color: lightblue;
+            padding-top:30px;
+            width: 1440px;
+            display:flex;
+            justify-content: space-between;
+            margin:0 auto;
+            li {border:1px solid #bbb; margin:5px;
+                a {
+                    .author {
+                        width: 230px;
+                        height: 300px;
+                        background-position: center;
+                        background-size: cover;
+                        // img {width: 100%;}
+                    }
+                    .author1 {background-image: url(../images/sub/1.png);}
+                    .author2 {background-image: url(../images/sub/2.png);}
+                    .author3 {background-image: url(../images/sub/3.png);}
+                    .author4 {background-image: url(../images/sub/4.png);}
+                    .author5 {background-image: url(../images/sub/5.png);}
+                    .author6 {background-image: url(../images/sub/6.png);}
+                    p {
+                        
+                        background-color:#fff;
+                        text-align: center;
+                        font-size:1.2rem;
+                        font-family: $font2;
+                        font-weight: 600;
+                        padding:10px 0;
+                        border-top:1px solid black;
+                    }
+                    span {font-size:0.813rem; display:none;}
+                }
+            }
+            li:hover {border:1px solid #222; transition:all 0.5s;}
+        }
+    }//subscribe 
+    //ranking-------------------------------------------
+    .ranking_wrap {
+        width: 1440px;
+        margin:100px auto;
+        .webtoon {
+            // background-color:lightblue;
+            display:flex;
+            .webtoon_rank {
+                h1 {
+                    display:block;
+                    width:650px;
+                    font-family: $font2;font-size: 2rem;font-weight: 700;
+                    border-bottom:1px solid #ccc;
+                    padding:30px 0;
+                }
+                a {
+                    display:flex;
+                    margin-top:50px;
+                    position:relative;
+                    .ranking {
+                        position:absolute; top:5px; left:5px;
+                        background:#1E51FF;
+                        color:#fff;
+                        padding:10px;font-weight: 700;border:1px solid#ccc;
+                    }
+                    .thumnail {
+                        // display:block;
+                        width: 200px;
+                        height:250px;
+                        background-position: center;
+                        background-size: cover;
+                    }
+                }
+                .thumnail1 {background-image: url(../images/sub/18.png);}
+                .thumnail2 {background-image: url(../images/sub/17.png);}
+                .thumnail3 {background-image: url(../images/sub/16.png);}
+                .thumnail4 {background-image: url(../images/sub/15.png);}
+                .thumnail5 {background-image: url(../images/sub/14.png);}
+                .thumnail6 {background-image: url(../images/sub/13.png);}
+            }
+            .title {
+                margin:auto 0;
+                h2 {
+                    display: block;
+                    font-size: 1.5rem;font-family: $font2;
+                    font-weight: 700; padding:10px;
+                    border-bottom: 1px solid #ccc;
+                    width:450px;
+                }
+                p {font-size: 0.875rem;font-family: $font2; padding:30px 10px;line-height: 1.2;}
+                .wrap {
+                    // background-color: lemonchiffon;
+                    width:400px;
+                    display:flex;
+                    justify-content:center;
+                    .love {
+                        // background-color:lightcoral;
+                        width:100px;
+                        height: 25px;
+                        display: flex;
+                        justify-content:center;
+                        p {font-weight: 700;padding:5px;}
+                        img {}
+                    }
+                    .coment {
+                        // background-color:lightcoral;
+                        width:100px;
+                        height: 25px;
+                        display: flex;
+                        justify-content:center;
+                        p {font-weight: 700;padding:5px;}
+                        img {}
+                    }
+                    .view {                        
+                        // background-color:lightcoral;
+                        width:100px;
+                        height: 25px;
+                        display: flex;
+                        justify-content:center;
+                        p {font-weight: 700;padding:5px;}
+                        img {}
+                    }
+                }
+                .tag {
+                    // background-color:lightcyan;
+                    ul {
+                        display:flex;
+                        li {
+                            font-family: $font2;
+                            font-weight: 700;
+                            font-size: 0.875rem;
+                            width:80px;
+                            border:1px solid black;
+                            border-radius:5px;
+                            text-align: center;
+                            padding:5px;
+                            margin:10px;
+                        }
+                    }
+                }
+            }
+            .hot_webtoon {
+                padding-left:100px;
+                h1 {
+                    display: inline-block;
+                    width:650px;
+                    font-family: $font2;font-size: 2rem;font-weight: 700;
+                    border-bottom:1px solid #ccc;
+                    padding:30px 0;
+                }
+                a {
+                    display:flex;
+                    margin-top:50px;
+                    position:relative;
+                    .ranking {
+                        position:absolute; top:5px; left:5px;
+                        background:#1E51FF;
+                        color:#fff;
+                        padding:10px;font-weight: 700;
+                        border:1px solid#ccc;
+                    }
+                    .thumnail {
+                        // display:block;
+                        width: 200px;
+                        height:250px;
+                        background-position: center;
+                        background-size: cover;
+                    }
+                }
+                .thumnail4 {background-image: url(../images/sub/15.png);}
+                .thumnail5 {background-image: url(../images/sub/14.png);}
+                .thumnail6 {background-image: url(../images/sub/13.png);}
+            }
+        }
+        /* Webnovel ------------------------------------------ */
+        .webnovel {
+            margin-top:100px;
+            // background-color: lightblue;
+            display: flex;
+            .title {
+                margin:auto 0;
+                h2 {
+                    display: block;
+                    font-size: 1.5rem;font-family: $font2;
+                    font-weight: 700; padding:10px;
+                    border-bottom: 1px solid #ccc;
+                    width:450px;
+                }
+                p {font-size: 0.875rem;font-family: $font2; padding:50px 10px;line-height: 1.2;}
+                .wrap {
+                    // background-color: lemonchiffon;
+                    width:400px;
+                    display:flex;
+                    justify-content:center;
+                    .love {
+                        // background-color:lightcoral;
+                        width:100px;
+                        height: 25px;
+                        display: flex;
+                        justify-content:center;
+                        p {font-weight: 700;padding:5px;}
+                        img {}
+                    }
+                    .coment {
+                        // background-color:lightcoral;
+                        width:100px;
+                        height: 25px;
+                        display: flex;
+                        justify-content:center;
+                        p {font-weight: 700;padding:5px;}
+                        img {}
+                    }
+                    .view {                        
+                        // background-color:lightcoral;
+                        width:100px;
+                        height: 25px;
+                        display: flex;
+                        justify-content:center;
+                        p {font-weight: 700;padding:5px;}
+                        img {}
+                    }
+                }
+                .tag {
+                    // background-color:lightcyan;
+                    ul {
+                        display:flex;
+                        li {
+                            font-family: $font2;
+                            font-weight: 700;
+                            font-size: 0.875rem;
+                            width:80px;
+                            border:1px solid black;
+                            border-radius:5px;
+                            text-align: center;
+                            padding:5px;
+                            margin:10px;
+                        }
+                    }
+                }
+            }
+            .novel_rank {
+                h1 {
+                    display:block;
+                    width:650px;
+                    font-family: $font2;font-size: 2rem;font-weight: 700;
+                    border-bottom:1px solid #ccc;
+                    padding:30px 0;
+                }
+                a {
+                    display:flex;
+                    margin-top:50px;
+                    position:relative;
+                    .ranking {
+                        position:absolute; top:5px; left:5px;
+                        background:#1E51FF;
+                        color:#fff;
+                        padding:10px;font-weight: 700;border:1px solid#ccc;
+                    }
+                    .thumnail {
+                        // display:block;
+                        width: 200px;
+                        height:250px;
+                        background-position: center;
+                        background-size: cover;
+                    }
+                }
+                .thumnail1 {background-image: url(../images/sub/novel1.png);}
+                .thumnail2 {background-image: url(../images/sub/novel2.png);}
+                .thumnail3 {background-image: url(../images/sub/novel3.png);}
+            }
+            .hot_novel {
+                padding-left:50px;
+                h1 {
+                    display:block;
+                    width:650px;
+                    font-family: $font2;font-size: 2rem;font-weight: 700;
+                    border-bottom:1px solid #ccc;
+                    padding:30px 0;
+                }
+                a {
+                    display:flex;
+                    margin-top:50px;
+                    position:relative;
+                    .ranking {
+                        position:absolute; top:5px; left:5px;
+                        background:#1E51FF;
+                        color:#fff;
+                        padding:10px;font-weight: 700;border:1px solid#ccc;
+                    }
+                    .thumnail {
+                        // display:block;
+                        width: 200px;
+                        height:250px;
+                        background-position: center;
+                        background-size: cover;
+                    }
+                }
+                .thumnail4 {background-image: url(../images/sub/novel1.png);}
+                .thumnail5 {background-image: url(../images/sub/novel2.png);}
+                .thumnail6 {background-image: url(../images/sub/novel3.png);}
+            }
+        }
+    }
+    /* ------------event----------------- */
+    .event {
+        width: 1440px;
+        height: 200px;
+        margin:0 auto;
+        background-image: url(../images/sub/bnr10.png);
+        background-position:top;
+        background-size: cover;
+    }
+    /* ------------original------------------- */
+    .original {
+        width: 1440px;
+        margin:100px auto;
+        .original_wrap {
+            .title {
+                width: 1440px;
+                height: 80px;
+                margin:0 auto;
+                display:flex;
+                justify-content: space-between;
+                align-items: center;
+                border-bottom:1px solid #ccc;
+                h1 {font-family:$font2; font-size: 2rem;font-weight: 700;padding:0 30px;}
+                a {
+                    border:1px solid #444;
+                    padding:10px 10px;
+                    font-size:0.875rem;
+                }
+            }
+            .contain {
+                // background-color: lightblue;
+                margin-top:50px;
+                display:flex;
+                justify-content: space-between;
+                li {
+                    border:1px solid #bbb; padding-bottom: 10px;
+                    a {
+                        p:nth-child(2) {
+                            font-family:$font2; font-size: 1.2rem;font-weight: 700;
+                            text-align: center; padding:10px 0;
+                            background-color:#5086f3; color:#fff;
+                        }
+                        p:nth-child(2):hover {
+                            background-color:#1E51FF; color:#fff;
+                            transition:all 0.5s;
+                        }
+                        p:nth-child(3) {font-size:0.813rem;padding:10px 0;text-align: center;}
+                        .original_wrap {
+                            width:230px;
+                            height:250px;
+                            background-position:center;
+                            background-size: cover;
+                        }
+                        .wrap1 {background-image: url(../images/sub/7.png);}
+                        .wrap2 {background-image: url(../images/sub/8.png);}
+                        .wrap3 {background-image: url(../images/sub/9.png);}
+                        .wrap4 {background-image: url(../images/sub/10.png);}
+                        .wrap5 {background-image: url(../images/sub/11.png);}
+                        .wrap6 {background-image: url(../images/sub/12.png);}
+                    }
+                }
+            }
+        }
+    }
 }//main
+
 
 
 
