@@ -1,0 +1,221 @@
+.sub_1 {
+  display: none;
+}
+
+header {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  z-index: 9999;
+}
+header .header_wrap {
+  width: 1440px;
+  height: 100px;
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+}
+header .header_wrap .logo {
+  width: 200px;
+  position: absolute;
+  top: 20px;
+}
+header .header_wrap .logo img {
+  width: 100%;
+}
+header .header_wrap .login {
+  width: 350px;
+  position: absolute;
+  top: 5px;
+  right: 0;
+}
+header .header_wrap .login ul {
+  display: flex;
+  justify-content: space-between;
+}
+header .header_wrap .login ul li a {
+  display: block;
+  border: 1px solid #fff;
+  padding: 5px 7px;
+  border-radius: 5px;
+  font-size: 0.813rem;
+  color: #fff;
+}
+header .header_wrap nav {
+  margin: 0 auto;
+  margin-top: 40px;
+}
+header .header_wrap nav .gnb {
+  display: flex;
+}
+header .header_wrap nav .gnb li {
+  padding: 10px;
+  margin-right: 50px;
+}
+header .header_wrap nav .gnb li a {
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+main .main1 {
+  position: relative;
+}
+main .main1 .top {
+  height: auto;
+}
+main .main1 .top img {
+  width: 100%;
+}
+main .main1 .text {
+  height: auto;
+  width: 600px;
+  position: absolute;
+  top: 30%;
+  right: 20%;
+  -webkit-animation: title 1s;
+          animation: title 1s;
+}
+main .main1 .text img {
+  width: 100%;
+}
+main .main1 .select {
+  transform: translateY(-100px);
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+main .main1 .select .regist {
+  background: linear-gradient(90deg, rgb(255, 129, 102) 57%, rgb(252, 170, 152) 94%);
+  border-radius: 50px;
+  width: 350px;
+  height: 250px;
+  position: relative;
+}
+main .main1 .select .regist a {
+  text-align: center;
+}
+main .main1 .select .regist a h1 {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding: 50px 0;
+  color: #fff;
+}
+main .main1 .select .regist a p {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 600;
+}
+main .main1 .select .regist a .arrow {
+  position: absolute;
+  bottom: 40px;
+  right: 10px;
+  width: 250px;
+}
+main .main1 .select .regist a .arrow img {
+  width: 100%;
+}
+main .main1 .select .regist:hover {
+  transform: translateY(-30px);
+  transition: all 0.5s;
+}
+main .main1 .select .program {
+  background: linear-gradient(90deg, rgb(97, 181, 211) 57%, rgb(134, 203, 227) 94%);
+  border-radius: 50px;
+  width: 350px;
+  height: 250px;
+  position: relative;
+  margin: 0 50px;
+}
+main .main1 .select .program a {
+  text-align: center;
+}
+main .main1 .select .program a h1 {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding: 50px 0;
+  color: #fff;
+}
+main .main1 .select .program a p {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 600;
+}
+main .main1 .select .program a .arrow {
+  position: absolute;
+  bottom: 40px;
+  right: 10px;
+  width: 250px;
+}
+main .main1 .select .program a .arrow img {
+  width: 100%;
+}
+main .main1 .select .program:hover {
+  transform: translateY(-30px);
+  transition: all 0.5s;
+}
+main .main1 .select .center {
+  background: linear-gradient(90deg, rgb(88, 198, 141) 57%, rgb(137, 245, 189) 94%);
+  border-radius: 50px;
+  width: 350px;
+  height: 250px;
+  position: relative;
+}
+main .main1 .select .center a {
+  text-align: center;
+}
+main .main1 .select .center a h1 {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding: 50px 0;
+  color: #fff;
+}
+main .main1 .select .center a p {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 600;
+}
+main .main1 .select .center a .arrow {
+  position: absolute;
+  bottom: 40px;
+  right: 10px;
+  width: 250px;
+}
+main .main1 .select .center a .arrow img {
+  width: 100%;
+}
+main .main1 .select .center:hover {
+  transform: translateY(-30px);
+  transition: all 0.5s;
+}
+
+@-webkit-keyframes title {
+  0% {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes title {
+  0% {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}/*# sourceMappingURL=main.css.map */

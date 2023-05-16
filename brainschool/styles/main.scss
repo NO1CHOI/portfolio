@@ -1,0 +1,139 @@
+//color: #E60021,#005BAC
+//13px = 0.813rem
+//14px = 0.875rem
+$font1:'Nanum Gothic', sans-serif;
+
+.sub_1 {display:none;}
+
+header {
+    width:100%;
+    background-color: rgba(0,0,0,0.6);
+    position:absolute;top:0;z-index: 9999;
+    // position:absolute;
+    .header_wrap {
+        // background-color: lightblue;
+        width: 1440px;
+        height:100px;
+        position:relative;
+        margin:0 auto;
+        display:flex;
+        .logo {
+            width:200px;
+            position:absolute;top:20px;
+            img{width: 100%;}
+        }
+        .login {
+            // background-color:lightsteelblue;
+            width:350px;
+            position:absolute;top:5px;right:0;
+            ul {
+                display: flex;
+                justify-content: space-between;
+                li {
+                    a {display: block;
+                        border:1px solid #fff;padding:5px 7px;
+                        border-radius:5px;
+                        font-size: 0.813rem; color:#fff;
+                    }
+                }
+            }
+        }
+        nav {
+            margin: 0 auto;
+            margin-top:40px;
+            .gnb {
+                display:flex;
+                li {
+                    // background-color: lawngreen;
+                    padding:10px; margin-right:50px;
+                    a {font-family: $font1;font-weight: 700;font-size:1.2rem;color:#fff;}
+                }
+            }
+        }
+    }
+}//header
+//------------------main------------------------------
+main {
+    .main1 {
+        position:relative;
+        .top {
+            height:auto;
+            img{width: 100%;}
+        }
+        .text { 
+            height: auto;
+            width: 600px;
+            position:absolute;top:30%;right:20%;
+            animation: title 1s;
+            img {width: 100%;}
+        }
+        .select {
+            // background-color: lightblue;
+            transform:translateY(-100px);
+            width:1400px; margin:0 auto;
+            display: flex; justify-content: center;
+            .regist {
+                background:linear-gradient(90deg, rgba(255,129,102,1) 57%, rgba(252,170,152,1) 94%);
+                border-radius: 50px;
+                width:350px;
+                height:250px;
+                position:relative;
+                a {
+                    text-align: center;
+                    h1 {font-family: $font1;font-size:2.5rem;font-weight: 600;padding:50px 0;color:#fff;}
+                    p {font-family: $font1; font-size:1.5rem;color:#fff;font-weight: 600;}
+                    .arrow {
+                        position:absolute;bottom:40px;right:10px;
+                        width: 250px;
+                        img {width: 100%;}
+                    }
+                }
+            }
+            .regist:hover {transform:translateY(-30px); transition:all 0.5s;}
+            .program {
+                background:linear-gradient(90deg, rgba(97,181,211,1) 57%, rgba(134,203,227,1) 94%);
+                border-radius: 50px;
+                width:350px;
+                height:250px;
+                position:relative;
+                margin:0 50px;
+                a {
+                    text-align: center;
+                    h1 {font-family: $font1;font-size:2.5rem;font-weight: 600;padding:50px 0;color:#fff;}
+                    p {font-family: $font1; font-size:1.5rem;color:#fff;font-weight: 600;}
+                    .arrow {
+                        position:absolute;bottom:40px;right:10px;
+                        width:250px;
+                        img {width: 100%;}
+                    }
+                }
+            }
+            .program:hover {transform:translateY(-30px); transition:all 0.5s;}
+            .center {
+                background:linear-gradient(90deg, rgba(88,198,141,1) 57%, rgba(137,245,189,1) 94%);
+                border-radius: 50px;
+                width:350px;
+                height:250px;
+                position:relative;
+                a {
+                    text-align: center;
+                    h1 {font-family: $font1;font-size:2.5rem;font-weight: 600;padding:50px 0;color:#fff;}
+                    p {font-family: $font1; font-size:1.5rem;color:#fff;font-weight: 600;}
+                    .arrow {
+                        position:absolute;bottom:40px;right:10px;
+                        width:250px;
+                        img {width: 100%;}
+                    }
+                }
+            }
+            .center:hover {transform:translateY(-30px); transition:all 0.5s;}
+        }
+    }//main1
+}//main
+
+
+
+@keyframes title {
+    0% {transform:translateY(40px);opacity:0;}
+    100% {transform:translateY(0);opacity: 1;}
+}
