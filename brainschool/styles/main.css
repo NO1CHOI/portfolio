@@ -197,6 +197,295 @@ main .main1 .select .center:hover {
   transform: translateY(-30px);
   transition: all 0.5s;
 }
+main .main2 {
+  background-image: url(../images/sub/sub_bg02.png);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  margin: 100px auto;
+}
+main .main2 h1 {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+}
+main .main2 p {
+  padding: 10px 0 100px 0;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 1.5rem;
+}
+main .main2 .video video {
+  width: 60%;
+}
+main .main3 {
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+main .main3 .bnr {
+  width: 440px;
+}
+main .main3 .bnr1 img {
+  width: 100%;
+}
+main .main3 .bnr2 img {
+  width: 100%;
+}
+main .main3 .bnr3 img {
+  width: 100%;
+}
+main .main4 {
+  width: 1320px;
+  margin: 100px auto;
+  display: flex;
+}
+main .main4 .right {
+  background: linear-gradient(180deg, rgb(0, 91, 172) 0%, rgba(255, 255, 255, 0.731530112) 30%);
+  text-align: center;
+}
+main .main4 .right .logo2 {
+  width: 200px;
+  margin: 0 auto;
+}
+main .main4 .right .logo2 img {
+  width: 100%;
+}
+main .main4 .right a {
+  display: inline-block;
+  background-color: #005BAC;
+  border-radius: 50px;
+  margin: 38px 10px;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 1.2rem;
+  padding: 20px 30px;
+  color: #fff;
+  font-weight: 700;
+}
+main .main4 .right .contents img {
+  width: 100%;
+}
+main .main5 {
+  background-image: url(../images/sub/sub_bg06.png);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+main .main5 .main5_wrap {
+  position: relative;
+  width: 1440px;
+  height: 600px;
+  margin: 0 auto;
+  /* hover---------------- */
+}
+main .main5 .main5_wrap .title {
+  display: inline-block;
+  position: absolute;
+  top: 100px;
+  left: 0;
+}
+main .main5 .main5_wrap .title h1 {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: -0.02rem;
+  padding-bottom: 10px;
+}
+main .main5 .main5_wrap .title p {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+main .main5 .main5_wrap .line {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  align-items: center;
+  width: 1200px;
+  height: 2px;
+  background: #222;
+}
+main .main5 .main5_wrap > .consult {
+  display: inline-block;
+  background-color: #E41726;
+  border-radius: 50px;
+  position: absolute;
+  top: 45%;
+  right: 0;
+  padding: 20px 40px;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  font-size: 1.5rem;
+  transition: background-color 0.5s;
+}
+main .main5 .main5_wrap .davinci {
+  width: 130px;
+  height: 100px;
+  margin: 0 auto;
+  transition: all 0.5s;
+}
+main .main5 .main5_wrap .davinci1 {
+  position: absolute;
+  top: 29%;
+  left: 25%;
+}
+main .main5 .main5_wrap .davinci1 img {
+  width: 100%;
+}
+main .main5 .main5_wrap .davinci1 p {
+  text-align: center;
+  padding: 10px 20px;
+  background: #155D00;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  opacity: 0;
+  z-index: 999;
+}
+main .main5 .main5_wrap .davinci2 {
+  position: absolute;
+  top: 29%;
+  left: 45%;
+}
+main .main5 .main5_wrap .davinci2 img {
+  width: 100%;
+}
+main .main5 .main5_wrap .davinci2 p {
+  text-align: center;
+  padding: 10px 20px;
+  background: #3B62DC;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  opacity: 0;
+}
+main .main5 .main5_wrap .davinci3 {
+  position: absolute;
+  top: 29%;
+  right: 28%;
+}
+main .main5 .main5_wrap .davinci3 img {
+  width: 100%;
+}
+main .main5 .main5_wrap .davinci3 p {
+  text-align: center;
+  padding: 10px 20px;
+  background: #500E04;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  opacity: 0;
+  z-index: 999;
+}
+main .main5 .main5_wrap .davinci4 {
+  position: absolute;
+  bottom: 32%;
+  right: 20%;
+}
+main .main5 .main5_wrap .davinci4 img {
+  width: 100%;
+}
+main .main5 .main5_wrap .davinci4 p {
+  text-align: center;
+  padding: 10px 20px;
+  background: #595959;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  opacity: 0;
+  z-index: 999;
+}
+main .main5 .main5_wrap .davinci5 {
+  position: absolute;
+  bottom: 32%;
+  right: 40%;
+}
+main .main5 .main5_wrap .davinci5 img {
+  width: 100%;
+}
+main .main5 .main5_wrap .davinci5 p {
+  text-align: center;
+  padding: 10px 20px;
+  background: #ED5895;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  opacity: 0;
+  z-index: 999;
+}
+main .main5 .main5_wrap .davinci6 {
+  position: absolute;
+  bottom: 32%;
+  left: 35%;
+}
+main .main5 .main5_wrap .davinci6 img {
+  width: 100%;
+}
+main .main5 .main5_wrap .davinci6 p {
+  text-align: center;
+  padding: 10px 20px;
+  background: #1A5B85;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  opacity: 0;
+  z-index: 999;
+}
+main .main5 .main5_wrap .consult:hover {
+  background-color: #f72836;
+}
+main .main5 .main5_wrap .davinci1:hover {
+  scale: 1.5;
+}
+main .main5 .main5_wrap .davinci1:hover p {
+  opacity: 1;
+}
+main .main5 .main5_wrap .davinci2:hover {
+  scale: 1.5;
+}
+main .main5 .main5_wrap .davinci2:hover p {
+  opacity: 1;
+}
+main .main5 .main5_wrap .davinci3:hover {
+  scale: 1.5;
+}
+main .main5 .main5_wrap .davinci3:hover p {
+  opacity: 1;
+}
+main .main5 .main5_wrap .davinci4:hover {
+  scale: 1.5;
+}
+main .main5 .main5_wrap .davinci4:hover p {
+  opacity: 1;
+}
+main .main5 .main5_wrap .davinci5:hover {
+  scale: 1.5;
+}
+main .main5 .main5_wrap .davinci5:hover p {
+  opacity: 1;
+}
+main .main5 .main5_wrap .davinci6:hover {
+  scale: 1.5;
+}
+main .main5 .main5_wrap .davinci6:hover p {
+  opacity: 1;
+}
 
 @-webkit-keyframes title {
   0% {
