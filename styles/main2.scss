@@ -7,6 +7,11 @@ $color5:#f6f1f1;
 //width: 1920px;
 @mixin font1 {font-family: 'Nanum Gothic', sans-serif;}
 
+$font1: 'Jua', sans-serif;
+$font2:'Nanum Gothic', sans-serif;
+$font3: 'Gowun Batang', serif;
+
+
 
 main {
     height: 100vh;
@@ -25,7 +30,7 @@ main {
             position:relative;
             .first {position: absolute;z-index: 999;}
             .second {position: absolute; z-index: 888;}
-            p {
+            p { font-family: $font3;
                 padding:70px 0;
                 color:#fff;
                 font-weight: 600;
@@ -41,6 +46,7 @@ main {
         margin:35px;
         width:90%; height: 900px;
         background: #fff;
+        border-radius: 20px;
         .contents {
             display:flex;
             position:relative;
@@ -53,11 +59,13 @@ main {
                     
                     display:flex;
                     flex-flow: row wrap;
-                    p { width:200px;
+                    p { 
+                        font-family: $font1;
+                        width:200px;
                         padding:10px;
                         font-size:1.250rem; font-weight: 600;
                         line-height: 1.5;
-                        span {font-size:1.250rem; font-weight: 600;}                      
+                        span {font-size:1.250rem; font-weight: 600;font-family: $font1;}                      
                     }
                     p:nth-child(1) span {color:$color1;}
                     p:nth-child(2) span {color:#19A7CE;}
@@ -71,11 +79,11 @@ main {
                 padding:10px;
                 // background: lightcyan;
                 img {position:absolute;top:50px; right:100px;}
-                h1 {font-size: 3rem; font-weight: 600;}
-                p {font-size:1.8rem;line-height: 1.2;}
+                h1 {font-size: 3rem; font-weight: 600;font-family: $font1;}
+                p {font-size:1.8rem;line-height: 1.2;font-family: $font3;}
                 dl {padding-left:400px;
-                    dt {font-size:1.5rem;line-height: 1.2; font-weight: 600;}
-                    dd {font-size:1.2rem;padding:10px;}
+                    dt {font-size:1.5rem;line-height: 1.2; font-weight: 600;font-family: $font1;}
+                    dd {font-size:1.2rem;padding:10px;font-family: $font3;}
                     }
                 .person {width:400px;position: absolute;top:30%;left:35%;}
                 }

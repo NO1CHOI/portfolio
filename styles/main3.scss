@@ -6,6 +6,12 @@ $color4:#000;
 $color5:#f6f1f1;
 //width: 1920px;
 
+$font1: 'Jua', sans-serif;
+$font2:'Nanum Gothic', sans-serif;
+$font3: 'Gowun Batang', serif;
+
+
+
 /* Scrollbar css(chrome) */
 ::-webkit-scrollbar {width: 10px; height: 10px;}
 ::-webkit-scrollbar-track {background: #ccc;}
@@ -50,20 +56,28 @@ main {
             flex-flow:row nowrap;
             justify-content: space-between;
             .left {
-                padding:70px;
-                h1 {width: 500px; height: 300px; overflow: hidden;
+                padding:70px; 
+                h1 {
+                    width: 500px; height:300px;
+                    border-radius: 20px;
+                    background-image:url(../images/result/sns_stream.png);
+                    background-position: center;
                     img{width:100%;}}
-                h2 {font-size:2rem; color:#fff;font-weight: 600;padding:20px 0;}
+                h2 {
+                    font-family: $font2;
+                    font-size:2rem; color:#fff;font-weight: 600;padding:20px 20px;
+                }
                 ul{
                     li {
                         color:#fff;
                         font-size:1.5rem;
-                        padding:10px 0;
+                        padding:10px 20px;font-family: $font3;
                     }
                 }
                 .page {
                     padding-top:50px;
                     a {
+                        font-family: $font1;
                         background: #fff;
                         border-radius:20px;
                         padding:10px 20px;
@@ -82,14 +96,16 @@ main {
                 display:flex;
                 margin:70px;
                 .right_wrap {
-                    background: url(../images/prectice.jpg);
+                    background: url(../images/result/eac39678-e4f0-4a24-a15f-39d74f486b14.png);
                     background-size: cover;
                     width:400px;height: 800px;
                     margin-right:30px;
+                    border-radius: 20px;
                     }
                 .right_wrap2 {
-                    background: url(../images/prectice2222.jpg);
+                    background: url(../images/result/postype_sub3.png);
                     background-size: cover;
+                    border-radius: 20px;
                     width:400px;height: 800px;}
             }
         }
@@ -101,19 +117,31 @@ main {
                         justify-content: space-between;
                         .left {
                             padding:70px;
-                            h1 {width: 500px; height: 300px; overflow: hidden;
-                                img{width:100%;}}
-                            h2 {font-size:2rem; color:#fff;font-weight: 600;padding:20px 0;}
+                            h1 {
+                                width: 500px; height:300px;
+                                border-radius: 20px;
+                                background-image:url(../images/result/bacin.png);
+                                background-position: center;
+                                background-size: cover;
+                                img{width:100%;}
+                            }
+                            h2 {
+                                font-family: $font2;
+                                font-size:2rem; color:#fff;font-weight: 600;
+                                padding:20px 20px;
+                            }
                             ul{
                                 li {
+                                    font-family: $font3;
                                     color:#fff;
                                     font-size:1.5rem;
-                                    padding:10px 0;
+                                    padding:10px 20px;
                                 }
                             }
                             .page {
                                 padding-top:50px;
                                 a {
+                                    font-family: $font1;
                                     background: #fff;
                                     border-radius:20px;
                                     padding:10px 20px;
@@ -132,14 +160,18 @@ main {
                             display:flex;
                             margin:70px;
                             .right_wrap {
-                                background: url(../images/prectice.jpg);
+                                background: url(../images/result/bain\ main.png);
+                                background-position: center;
                                 background-size: cover;
                                 width:400px;height: 800px;
                                 margin-right:30px;
+                                border-radius: 20px;
                                 }
                             .right_wrap2 {
-                                background: url(../images/prectice2222.jpg);
+                                background: url(../images/result/brain_re.png);
+                                background-position:top;
                                 background-size: cover;
+                                border-radius: 20px;
                                 width:400px;height: 800px;}
                         }
                     }

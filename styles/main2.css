@@ -23,6 +23,7 @@ main nav a .second {
   z-index: 888;
 }
 main nav a p {
+  font-family: "Gowun Batang", serif;
   padding: 70px 0;
   color: #fff;
   font-weight: 600;
@@ -37,6 +38,7 @@ main .wrap {
   width: 90%;
   height: 900px;
   background: #fff;
+  border-radius: 20px;
 }
 main .wrap .contents {
   display: flex;
@@ -54,6 +56,7 @@ main .wrap .contents .left .text_wrap {
   flex-flow: row wrap;
 }
 main .wrap .contents .left .text_wrap p {
+  font-family: "Jua", sans-serif;
   width: 200px;
   padding: 10px;
   font-size: 1.25rem;
@@ -63,6 +66,7 @@ main .wrap .contents .left .text_wrap p {
 main .wrap .contents .left .text_wrap p span {
   font-size: 1.25rem;
   font-weight: 600;
+  font-family: "Jua", sans-serif;
 }
 main .wrap .contents .left .text_wrap p:nth-child(1) span {
   color: #0078d7;
@@ -91,10 +95,12 @@ main .wrap .contents .right img {
 main .wrap .contents .right h1 {
   font-size: 3rem;
   font-weight: 600;
+  font-family: "Jua", sans-serif;
 }
 main .wrap .contents .right p {
   font-size: 1.8rem;
   line-height: 1.2;
+  font-family: "Gowun Batang", serif;
 }
 main .wrap .contents .right dl {
   padding-left: 400px;
@@ -103,10 +109,12 @@ main .wrap .contents .right dl dt {
   font-size: 1.5rem;
   line-height: 1.2;
   font-weight: 600;
+  font-family: "Jua", sans-serif;
 }
 main .wrap .contents .right dl dd {
   font-size: 1.2rem;
   padding: 10px;
+  font-family: "Gowun Batang", serif;
 }
 main .wrap .contents .right .person {
   width: 400px;

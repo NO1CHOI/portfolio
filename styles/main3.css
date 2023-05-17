@@ -65,26 +65,31 @@ main .container .first .left {
 main .container .first .left h1 {
   width: 500px;
   height: 300px;
-  overflow: hidden;
+  border-radius: 20px;
+  background-image: url(../images/result/sns_stream.png);
+  background-position: center;
 }
 main .container .first .left h1 img {
   width: 100%;
 }
 main .container .first .left h2 {
+  font-family: "Nanum Gothic", sans-serif;
   font-size: 2rem;
   color: #fff;
   font-weight: 600;
-  padding: 20px 0;
+  padding: 20px 20px;
 }
 main .container .first .left ul li {
   color: #fff;
   font-size: 1.5rem;
-  padding: 10px 0;
+  padding: 10px 20px;
+  font-family: "Gowun Batang", serif;
 }
 main .container .first .left .page {
   padding-top: 50px;
 }
 main .container .first .left .page a {
+  font-family: "Jua", sans-serif;
   background: #fff;
   border-radius: 20px;
   padding: 10px 20px;
@@ -102,15 +107,17 @@ main .container .first .right {
   margin: 70px;
 }
 main .container .first .right .right_wrap {
-  background: url(../images/prectice.jpg);
+  background: url(../images/result/eac39678-e4f0-4a24-a15f-39d74f486b14.png);
   background-size: cover;
   width: 400px;
   height: 800px;
   margin-right: 30px;
+  border-radius: 20px;
 }
 main .container .first .right .right_wrap2 {
-  background: url(../images/prectice2222.jpg);
+  background: url(../images/result/postype_sub3.png);
   background-size: cover;
+  border-radius: 20px;
   width: 400px;
   height: 800px;
 }
@@ -126,26 +133,32 @@ main .container .second .left {
 main .container .second .left h1 {
   width: 500px;
   height: 300px;
-  overflow: hidden;
+  border-radius: 20px;
+  background-image: url(../images/result/bacin.png);
+  background-position: center;
+  background-size: cover;
 }
 main .container .second .left h1 img {
   width: 100%;
 }
 main .container .second .left h2 {
+  font-family: "Nanum Gothic", sans-serif;
   font-size: 2rem;
   color: #fff;
   font-weight: 600;
-  padding: 20px 0;
+  padding: 20px 20px;
 }
 main .container .second .left ul li {
+  font-family: "Gowun Batang", serif;
   color: #fff;
   font-size: 1.5rem;
-  padding: 10px 0;
+  padding: 10px 20px;
 }
 main .container .second .left .page {
   padding-top: 50px;
 }
 main .container .second .left .page a {
+  font-family: "Jua", sans-serif;
   background: #fff;
   border-radius: 20px;
   padding: 10px 20px;
@@ -163,15 +176,19 @@ main .container .second .right {
   margin: 70px;
 }
 main .container .second .right .right_wrap {
-  background: url(../images/prectice.jpg);
+  background: url(../images/result/bain\ main.png);
+  background-position: center;
   background-size: cover;
   width: 400px;
   height: 800px;
   margin-right: 30px;
+  border-radius: 20px;
 }
 main .container .second .right .right_wrap2 {
-  background: url(../images/prectice2222.jpg);
+  background: url(../images/result/brain_re.png);
+  background-position: top;
   background-size: cover;
+  border-radius: 20px;
   width: 400px;
   height: 800px;
 }/*# sourceMappingURL=main3.css.map */

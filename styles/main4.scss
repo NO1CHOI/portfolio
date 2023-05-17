@@ -6,14 +6,20 @@ $color4:#000;
 $color5:#f6f1f1;
 //width: 1920px;
 
+$font1: 'Jua', sans-serif;
+$font2:'Nanum Gothic', sans-serif;
+$font3: 'Gowun Batang', serif;
+
+
 @mixin font1 {
+    font-family: $font3;
     color:#fff;font-weight: 700;
     font-size: 1.5rem; padding:20px 0;
     padding-bottom: none;
 }
 
 main{
-    width:100%; height: 130vh;
+    width:100%; height: 150vh;
     background: url(../images/sub-3.png);
     background-size: cover;
     background-position:center;

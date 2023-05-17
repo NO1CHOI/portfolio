@@ -19,7 +19,7 @@ body, html {
 
 main {
   width: 100%;
-  height: 300vh;
+  height: 230vh;
   background: #0078d7;
   background-size: cover;
 }
@@ -90,14 +90,20 @@ main .contents .detail_wrap {
 }
 main .contents .detail_wrap .detail1 {
   border: 3px solid #fff;
+  border-radius: 20px;
   width: 300px;
+  height: 600px;
+  overflow: hidden;
 }
-main .contents .detail_wrap .detail1 img {
+main .contents .detail_wrap .detail1 a img {
   width: 100%;
 }
 main .contents .detail_wrap .detail2 {
   border: 3px solid #fff;
+  border-radius: 20px;
   width: 300px;
+  height: 600px;
+  overflow: hidden;
 }
 main .contents .detail_wrap .detail2 img {
   width: 100%;
@@ -105,6 +111,8 @@ main .contents .detail_wrap .detail2 img {
 main .contents .detail_wrap .detail3 {
   border: 3px solid #fff;
   width: 300px;
+  height: 600px;
+  overflow: hidden;
 }
 main .contents .detail_wrap .detail3 img {
   width: 100%;

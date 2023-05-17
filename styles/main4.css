@@ -1,6 +1,6 @@
 main {
   width: 100%;
-  height: 130vh;
+  height: 150vh;
   background: url(../images/sub-3.png);
   background-size: cover;
   background-position: center;
@@ -52,6 +52,7 @@ main .contents .left .bnr1 a img {
   width: 100%;
 }
 main .contents .left .bnr1 p {
+  font-family: "Gowun Batang", serif;
   color: #fff;
   font-weight: 700;
   font-size: 1.5rem;
@@ -59,6 +60,7 @@ main .contents .left .bnr1 p {
   padding-bottom: none;
 }
 main .contents .left .bnr1 p span {
+  font-family: "Gowun Batang", serif;
   color: #fff;
   font-weight: 700;
   font-size: 1.5rem;
@@ -74,6 +76,7 @@ main .contents .left .bnr2 a img {
   width: 100%;
 }
 main .contents .left .bnr2 p {
+  font-family: "Gowun Batang", serif;
   color: #fff;
   font-weight: 700;
   font-size: 1.5rem;
@@ -81,6 +84,7 @@ main .contents .left .bnr2 p {
   padding-bottom: none;
 }
 main .contents .left .bnr2 p span {
+  font-family: "Gowun Batang", serif;
   color: #fff;
   font-weight: 700;
   font-size: 1.5rem;
@@ -96,6 +100,7 @@ main .contents .left .bnr3 a img {
   width: 100%;
 }
 main .contents .left .bnr3 p {
+  font-family: "Gowun Batang", serif;
   color: #fff;
   font-weight: 700;
   font-size: 1.5rem;
@@ -103,6 +108,7 @@ main .contents .left .bnr3 p {
   padding-bottom: none;
 }
 main .contents .left .bnr3 p span {
+  font-family: "Gowun Batang", serif;
   color: #fff;
   font-weight: 700;
   font-size: 1.5rem;
@@ -129,6 +135,7 @@ main .contents .right .bnr1 a img {
   width: 100%;
 }
 main .contents .right .bnr1 p {
+  font-family: "Gowun Batang", serif;
   color: #fff;
   font-weight: 700;
   font-size: 1.5rem;
@@ -136,6 +143,7 @@ main .contents .right .bnr1 p {
   padding-bottom: none;
 }
 main .contents .right .bnr1 p span {
+  font-family: "Gowun Batang", serif;
   color: #fff;
   font-weight: 700;
   font-size: 1.5rem;
@@ -151,6 +159,7 @@ main .contents .right .bnr2 a img {
   width: 100%;
 }
 main .contents .right .bnr2 p {
+  font-family: "Gowun Batang", serif;
   color: #fff;
   font-weight: 700;
   font-size: 1.5rem;
@@ -158,6 +167,7 @@ main .contents .right .bnr2 p {
   padding-bottom: none;
 }
 main .contents .right .bnr2 p span {
+  font-family: "Gowun Batang", serif;
   color: #fff;
   font-weight: 700;
   font-size: 1.5rem;
@@ -172,6 +182,7 @@ main .contents .right .bnr3 a img {
   width: 100%;
 }
 main .contents .right .bnr3 p {
+  font-family: "Gowun Batang", serif;
   color: #fff;
   font-weight: 700;
   font-size: 1.5rem;
@@ -179,6 +190,7 @@ main .contents .right .bnr3 p {
   padding-bottom: none;
 }
 main .contents .right .bnr3 p span {
+  font-family: "Gowun Batang", serif;
   color: #fff;
   font-weight: 700;
   font-size: 1.5rem;
